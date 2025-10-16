@@ -27,8 +27,8 @@ author:
   name             : "Daniel (Viet) Nguyen" # Your name
   pronouns         : "he/him" # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "London, United Kingdom (willing to relocate)"
-  employer         : "Red Brick University"
+  location         : "London (willing to relocate)"
+  university       : "University of Exeter"
   uri              : # URL
   email            : "daniel.h.nguyen24@gmail.com" # Email address - if you want to display it on the site, otherwise leave blank
 
