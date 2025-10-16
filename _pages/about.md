@@ -1,12 +1,13 @@
 ---
 permalink: /
-title: "About Me"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
+## 🚀 About Me
 I’m a London-based MSc Financial Economics graduate from the University of Exeter with a passion for transforming complex data into meaningful insights that drive smarter financial and strategic decisions. My career has taken me through the worlds of finance, analytics, and technology — from uncovering £500k EBITDA adjustments in M&A deals at Grant Thornton to supporting large-scale data governance transformation projects for clients at KPMG.
 
 My journey into data has been driven by curiosity and a desire to understand what truly influences business performance. While working in finance and consulting, I saw firsthand how data can turn uncertainty into clarity — whether by uncovering hidden risks, identifying untapped opportunities, or translating complex information into actionable insights. I was particularly drawn to how thoughtful analysis and visualization can cut through the noise to reveal the real story behind the numbers and data. These experiences reinforced my belief that strategic, data-driven insights are critical for mitigating risks and delivering meaningful business impact. 
