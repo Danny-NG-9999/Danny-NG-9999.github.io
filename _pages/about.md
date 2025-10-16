@@ -31,7 +31,7 @@ When I’m not working with data, you’ll often find me exploring London’s ca
 <p>
   <!-- 💡 Go to Shields.io to create your own badges -->
   <img src="https://img.shields.io/badge/SQL-Intermediate-4479A1?style=flat&logo=mysql&logoColor=white" alt="SQL Skill Badge">
-  <img src="https://img.shields.io/badge/Power%20BI-Advance-F2C811?style=flat&logo=powerbi&logoColor=black" alt="Power BI Skill Badge">
+  <img src="https://img.shields.io/badge/Power%20BI-Advance-F2C811?style=flat&logo=powerbi&logoColor=white" alt="Power BI Skill Badge">
   <img src="https://img.shields.io/badge/Excel-Advance-217346?style=flat&logo=microsoft-excel&logoColor=white" alt="Excel Skill Badge">
 </p>
 
