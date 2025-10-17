@@ -79,9 +79,9 @@ initiatives.
 - **Libraries/Frameworks:**  
   - Pandas  
   - NumPy  
-  - Scikit-learn  
+  - Matplotlib
   - Seaborn  
-  - Selenium (for automation/web scraping)
+  - Scikit-learn  
 
 <p>
   <img src="https://img.shields.io/badge/R-Intermediate-276DC3?style=flat&logo=r&logoColor=white" alt="R Skill Badge">
