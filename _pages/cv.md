@@ -44,11 +44,27 @@ redirect_from:
 - **Compliance and Control Testing:** Assessed privileged access rights and application security configurations during system reviews to ensure SOX compliance. Identified and facilitated the remediation of five high-priority access vulnerabilities, strengthening clients’ compliance posture and enhancing the overall control environment.
 - **Project Management:** Contributed to a £3.4m data governance transformation programme, supporting KPMG Lighthouse experts and client teams in aligning data strategy with ISO 27001 and GDPR standards. Assisted with stakeholder communications by preparing presentations, Q&A logs, and progress reports, and processed project documentation for KPMG experts, helping ensure milestones were delivered on time, within budget, and in line with regulatory requirements.
 
+## DATA ANALYTICS & RESEARCH PROJECTS
+---
+### BI Analytics Project – Olist’s E-Commerce Platform (Brazil) | United Kingdom | October 2025 - October 2025
+- **Objective:** Conducted a comprehensive Business Intelligence analysis of Olist’s e-commerce dataset (100,000+ orders, 2016–2018) to deliver actionable insights for improving sales, customer retention, and marketplace competitiveness.
+- **Methodology & Scope:** Utilized Power BI, Python, and MySQL to analyse 12 relational tables and develop interactive dashboards for insights across operational performance, logistics, customer reviews, and lead conversion.
+- **Results:**
+    - Identified 55% revenue concentration in three product categories and a 93.6% one-time buyer rate, recommending loyalty programs and category diversification to increase customer lifetime value by 10–15%.
+    - Uncovered critical operational bottlenecks, including 2.8-day seller-to-carrier delays and regional delivery disparities; proposed a dual logistics strategy — centralized fulfilment hubs for high-volume regions (e.g. São Paulo) and decentralized partnerships for low-volume areas along with ML-driven predictive models to reduce fulfilment variance.
+
+### Analytical Research Project – MSc Dissertation, University of Exeter | United Kingdom | July 2025 – September 2025
+- **Objective:** Investigated the dynamic relationship between airport activity (passenger volumes and freight throughput) and regional economic productivity (GVA per head) across 12 UK ITL1 regions, testing for bidirectional causality to provide evidence-based insights informing the UK’s Levelling Up agenda, aviation policy, and regional development strategies.
+- **Methodology:** Employed Panel Vector Autoregression (PVAR) and Granger causality tests on a balanced panel dataset (1998–2023, 312 observations) using R Studio, integrating UK Civil Aviation Authority (CAA) airport data with Office for National Statistics (ONS) regional GVA metrics; analysed impacts while controlling for population density, applying stationarity tests (Im-Pesaran-Shin), logarithmic transformations, and lag selection (AIC/SC) for robust econometric modelling..
+- **Result:** 
+    - Confirmed passenger activity Granger-causes productivity with short-term adjustment costs and medium-term gains (lag 2: +0.0183, p<0.01), driven by aircraft movements; freight responds to productivity growth (Z=3.382, p<0.01) but does not cause or drive it.
+    - Recommended prioritizing flight frequency, route diversity, and efficiency in hub regions, while enhancing targeted connectivity in emerging regions to boost productivity.
+
 
 ## COMMUNITY SERVICE & EXTRA CURRICULAR ACTIVITIES
 ---
 
-### Volunteer in various Food Action initiatives, United Kingdom | November 2024 – June 2025
+### Volunteer in various Food Action initiatives | United Kingdom | November 2024 – June 2025
 - **Community Impact:** Collected and distributed an average of 285 meal portions per month to shelters and vulnerable individuals, addressing food-poverty issues and providing essential nutrition to the low-income community.
 - **Logistics and Fair Distribution:** Managed food inventory, maintained accurate records, and prioritized distribution based on community needs, ensuring fair and needs-based meal distribution to shelters.
 - **Event Support:** Assisted in charity event logistics, including venue setup and table preparation, creating welcoming environments that enhanced donor and guest experiences. Recognized as Top Volunteer at Food Action Exeter in Q4 2024 for exceptional contributions and dedication.
