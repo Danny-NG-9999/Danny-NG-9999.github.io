@@ -9,12 +9,13 @@ redirect_from:
 
 {% include base_path %}
 
-📎 Download a PDF version of this resume [here](/files/Resume_2025.pdf){: .btn .btn--primary target="_blank" }
+📎 Download a PDF version of this resume [here](/files/Resume_2025.pdf)
 
 ---
 ## EDUCATION
-### MSc Financial Economics, University of Exeter, United Kingdom
-**September 2024 – September 2025**
+***
+
+### MSc Financial Economics | University of Exeter, United Kingdom | September 2024 – September 2025
 *   **Degree classification (GPA):** 2:1
 *   **Key Modules:** Applied Econometric I (64%), Applied Econometric II (63%), Experimental and Behavioural Economics (83%), Economics of Corporate Finance (70%) and Topics in Financial Economics (60%).
 
@@ -25,6 +26,8 @@ redirect_from:
 
 ---
 ## PROFESSIONAL EXPERIENCE
+===
+
 ### Transaction Advisory Analyst | Grant Thornton, Vietnam | November 2022 – July 2024 
 
 - **Financial Due Diligence:** Performed detailed reviews of trial balances, general ledgers, and supporting financial statements across 8 M&A transactions (£500k–£8m), identifying and adjusting non-recurring items, misclassified expenses, unusual/suspicious and related-party transactions to establish normalized earnings and support accurate valuation models. Notably uncovered £500k EBITDA adjustment for an FMCG client, which strengthened the buyer’s position in negotiations and drove a more favourable purchase price.
