@@ -9,9 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-## 📎 Download a Copy
-You can download a PDF version of this resume here:  
-👉 [**Download Résumé (PDF)**](/assets/files/YourName_Resume.pdf){: .btn .btn--primary target="_blank" }
+## 📎 Download a PDF version of this resume [here](/assets/files/YourName_Resume.pdf){: .btn .btn--primary target="_blank" }
 
 ---
 
@@ -58,36 +56,73 @@ initiatives.
 - **Data-Driven Engagement:** Designed and analysed post-event surveys, improving topic relevance and driving a 7% increase in member engagement on the CFA Vietnam community page.
 - **Content Management:** Managed digital communications, ensuring alignment with CFA standards and guideline
 
+## Skills
+### Data Analysis & Business Intelligence Visualization
+<p>
+  <img src="https://img.shields.io/badge/SQL-Intermediate-4479A1?style=flat&logo=mysql&logoColor=white" alt="SQL Skill Badge">
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Power%20BI-Advanced-F2C811?style=flat&logo=powerbi&logoColor=white" alt="Power BI Skill Badge">
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Excel-Advanced-217346?style=flat&logo=microsoft-excel&logoColor=white" alt="Excel Skill Badge">
+</p>
 
 
-  
-#Skills
-#======
-#* Skill 1
-#* Skill 2
-#  * Sub-skill 2.1
-#  * Sub-skill 2.2
-#  * Sub-skill 2.3
-#* Skill 3
+### Econometric Modelling & Statistical Software
+<p>
+  <img src="https://img.shields.io/badge/Python-Intermediate-3776AB?style=flat&logo=python&logoColor=white" alt="Python Skill Badge">
+</p>
 
-#Publications
-#======
-#  <ul>{% for post in site.publications reversed %}
-#    {% include archive-single-cv.html %}
-#  {% endfor %}</ul>
+- **Libraries/Frameworks:**  
+  - Pandas  
+  - NumPy  
+  - Scikit-learn  
+  - Seaborn  
+  - Selenium (for automation/web scraping)
+
+<p>
+  <img src="https://img.shields.io/badge/R-Intermediate-276DC3?style=flat&logo=r&logoColor=white" alt="R Skill Badge">
+</p>
+
+- **Libraries/Frameworks:**  
+  - tidyverse  
+  - ggplot2  
+  - dplyr  
+  - caret  
+
+
+<!--
+Skills
+======
+* Skill 1
+* Skill 2
+  * Sub-skill 2.1
+  * Sub-skill 2.2
+  * Sub-skill 2.3
+* Skill 3
+
+Publications
+======
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
   
-#Talks
-#======
-#  <ul>{% for post in site.talks reversed %}
-#    {% include archive-single-talk-cv.html  %}
-#  {% endfor %}</ul>
+Talks
+======
+  <ul>{% for post in site.talks reversed %}
+    {% include archive-single-talk-cv.html  %}
+  {% endfor %}</ul>
   
-#Teaching
-#======
-#  <ul>{% for post in site.teaching reversed %}
-#    {% include archive-single-cv.html %}
-#  {% endfor %}</ul>
+Teaching
+======
+  <ul>{% for post in site.teaching reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
   
-#Service and leadership
-#======
-#* Currently signed in to 43 different slack teams
+Service and leadership
+======
+* Currently signed in to 43 different slack teams
+-->
