@@ -11,7 +11,7 @@ redirect_from:
 
 📎 Download a PDF version of this resume [here](/files/Resume_2025.pdf)
 
----
+
 ## EDUCATION
 ***
 
@@ -24,9 +24,9 @@ redirect_from:
     *   **Green Consultants Project:** Worked in a 4-person team with a doctoral researcher to align academic modules with the UN SDGs, producing a curriculum-mapping framework that was formally recognised with a £100 award for practical value.
     *   **VOIZ Climate Simulation Challenge:** Ranked Top 15 out of 164 teams from 39 UK universities in VOIZ Academy’s national climate case challenge, demonstrating analytical thinking, and effective teamwork under real-world conditions.
 
----
+
 ## PROFESSIONAL EXPERIENCE
-===
+---
 
 ### Transaction Advisory Analyst | Grant Thornton, Vietnam | November 2022 – July 2024 
 
@@ -44,8 +44,9 @@ redirect_from:
 - **Compliance and Control Testing:** Assessed privileged access rights and application security configurations during system reviews to ensure SOX compliance. Identified and facilitated the remediation of five high-priority access vulnerabilities, strengthening clients’ compliance posture and enhancing the overall control environment.
 - **Project Management:** Contributed to a £3.4m data governance transformation programme, supporting KPMG Lighthouse experts and client teams in aligning data strategy with ISO 27001 and GDPR standards. Assisted with stakeholder communications by preparing presentations, Q&A logs, and progress reports, and processed project documentation for KPMG experts, helping ensure milestones were delivered on time, within budget, and in line with regulatory requirements.
 
----
+
 ## COMMUNITY SERVICE & EXTRA CURRICULAR ACTIVITIES
+---
 
 ### Volunteer in various Food Action initiatives, United Kingdom | November 2024 – June 2025
 - **Community Impact:** Collected and distributed an average of 285 meal portions per month to shelters and vulnerable individuals, addressing food-poverty issues and providing essential nutrition to the low-income community.
@@ -59,6 +60,7 @@ redirect_from:
 
 ---
 ## Skills
+---
 <p>
   <img src="https://img.shields.io/badge/SQL-Intermediate-4479A1?style=flat&logo=mysql&logoColor=white" alt="SQL Skill Badge">
 </p>
