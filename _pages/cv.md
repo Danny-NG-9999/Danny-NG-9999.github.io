@@ -57,7 +57,6 @@ initiatives.
 - **Content Management:** Managed digital communications, ensuring alignment with CFA standards and guideline
 
 ## Skills
-### Data Analysis & Business Intelligence Visualization
 <p>
   <img src="https://img.shields.io/badge/SQL-Intermediate-4479A1?style=flat&logo=mysql&logoColor=white" alt="SQL Skill Badge">
 </p>
@@ -70,8 +69,6 @@ initiatives.
   <img src="https://img.shields.io/badge/Excel-Advanced-217346?style=flat&logo=microsoft-excel&logoColor=white" alt="Excel Skill Badge">
 </p>
 
-
-### Econometric Modelling & Statistical Software
 <p>
   <img src="https://img.shields.io/badge/Python-Intermediate-3776AB?style=flat&logo=python&logoColor=white" alt="Python Skill Badge">
 </p>
