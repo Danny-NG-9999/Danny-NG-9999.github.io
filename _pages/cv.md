@@ -9,10 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-## 📎 Download a PDF version of this resume [here](/assets/files/YourName_Resume.pdf){: .btn .btn--primary target="_blank" }
+📎 Download a PDF version of this resume [here](/files/Resume_2025.pdf){: .btn .btn--primary target="_blank" }
 
 ---
-
 ## EDUCATION
 ### MSc Financial Economics, University of Exeter, United Kingdom
 **September 2024 – September 2025**
@@ -25,7 +24,6 @@ redirect_from:
     *   **VOIZ Climate Simulation Challenge:** Ranked Top 15 out of 164 teams from 39 UK universities in VOIZ Academy’s national climate case challenge, demonstrating analytical thinking, and effective teamwork under real-world conditions.
 
 ---
-
 ## PROFESSIONAL EXPERIENCE
 ### Transaction Advisory Analyst | Grant Thornton, Vietnam | November 2022 – July 2024 
 
@@ -43,19 +41,20 @@ redirect_from:
 - **Compliance and Control Testing:** Assessed privileged access rights and application security configurations during system reviews to ensure SOX compliance. Identified and facilitated the remediation of five high-priority access vulnerabilities, strengthening clients’ compliance posture and enhancing the overall control environment.
 - **Project Management:** Contributed to a £3.4m data governance transformation programme, supporting KPMG Lighthouse experts and client teams in aligning data strategy with ISO 27001 and GDPR standards. Assisted with stakeholder communications by preparing presentations, Q&A logs, and progress reports, and processed project documentation for KPMG experts, helping ensure milestones were delivered on time, within budget, and in line with regulatory requirements.
 
+---
 ## COMMUNITY SERVICE & EXTRA CURRICULAR ACTIVITIES
 
 ### Volunteer in various Food Action initiatives, United Kingdom | November 2024 – June 2025
 - **Community Impact:** Collected and distributed an average of 285 meal portions per month to shelters and vulnerable individuals, addressing food-poverty issues and providing essential nutrition to the low-income community.
 - **Logistics and Fair Distribution:** Managed food inventory, maintained accurate records, and prioritized distribution based on community needs, ensuring fair and needs-based meal distribution to shelters.
-- **Event Support:** Assisted in charity event logistics, including venue setup and table preparation, creating welcoming environments that enhanced donor and guest experiences. Recognized as Top Volunteer at Food Action Exeter in Q4 2024 for exceptional contributions and dedication
-initiatives.
+- **Event Support:** Assisted in charity event logistics, including venue setup and table preparation, creating welcoming environments that enhanced donor and guest experiences. Recognized as Top Volunteer at Food Action Exeter in Q4 2024 for exceptional contributions and dedication.
 
 ### Media & Events Assistant | CFA Community of Vietnam, Vietnam | February 2022 – July 2024
 - **Event Delivery:** Assisted in organising 2 flagship events (Forecast Dinner, Charter Award Ceremony) with 100+ attendees, ensuring seamless execution and professional delivery.
 - **Data-Driven Engagement:** Designed and analysed post-event surveys, improving topic relevance and driving a 7% increase in member engagement on the CFA Vietnam community page.
-- **Content Management:** Managed digital communications, ensuring alignment with CFA standards and guideline
+- **Content Management:** Managed digital communications, ensuring alignment with CFA standards and guideline.
 
+---
 ## Skills
 <p>
   <img src="https://img.shields.io/badge/SQL-Intermediate-4479A1?style=flat&logo=mysql&logoColor=white" alt="SQL Skill Badge">
