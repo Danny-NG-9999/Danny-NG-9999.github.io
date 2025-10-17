@@ -46,6 +46,16 @@ redirect_from:
 | **Client Engagement & Management** | • Managed Virtual Data Room (VDR) and Q&A process.<br>• Coordinated senior team communications and ensured timely response workflows. |
 | **Market Research** | • Contributed to the *Doing Business in Vietnam 2024* guide.<br>• Evaluated renewable energy tariff regimes, M&A landscape, and regulatory risks. |
 
+| **Position** | **Organization** | **Location** | **Duration** | **Responsibility Area** | **Key Contributions and Achievements** |
+|---------------|------------------|---------------|---------------|--------------------------|----------------------------------------|
+| Transaction Advisory Analyst | Grant Thornton | Vietnam | Nov 2022 – Jul 2024 | **Financial Due Diligence** | • Reviewed trial balances, ledgers, and financials for M&A deals (£500k–£8m).<br>• Adjusted non-recurring items and related-party transactions to normalize earnings.<br>• Identified £500k EBITDA adjustment for an FMCG client, strengthening buyer’s negotiation position. |
+|  |  |  |  | **Risk and Contract Assessment** | • Analyzed customer, supplier, and lease contracts across FDD engagements.<br>• Identified £500k unrecorded liabilities, £180k take-or-pay commitment, £1m contingent liability from auto-renewal clause.<br>• Enabled 5% enterprise value reduction and improved SPA indemnities. |
+|  |  |  |  | **Commercial and Revenue Analysis** | • Conducted revenue breakdowns by product/service line and mapped contract expiries.<br>• Found 15% revenue dependency on one client and inflated related-party margins (20% above market).<br>• Supported post-acquisition cost-sharing protocols, reducing acquisition risk. |
+|  |  |  |  | **Valuation and Reporting** | • Prepared DCF models, comparable company analyses, and valuation schedules.<br>• Benchmarked performance vs. peers and presented results to partners and clients. |
+|  |  |  |  | **Client Engagement & Management** | • Managed Virtual Data Room (VDR) and Q&A process.<br>• Coordinated senior team communications and ensured timely response workflows. |
+|  |  |  |  | **Market Research** | • Contributed to the *Doing Business in Vietnam 2024* guide.<br>• Evaluated renewable energy tariff regimes, M&A landscape, and regulatory risks. |
+
+
 
 ### Technology Consultant, KPMG, Vietnam | April 2021 – June 2022
 
