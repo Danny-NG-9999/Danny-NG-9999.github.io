@@ -75,23 +75,22 @@ initiatives.
 <p>
   <img src="https://img.shields.io/badge/Python-Intermediate-3776AB?style=flat&logo=python&logoColor=white" alt="Python Skill Badge">
 </p>
-
-- **Libraries/Frameworks:**  
-  - Pandas  
-  - NumPy  
-  - Matplotlib
-  - Seaborn  
-  - Scikit-learn  
+- Pandas  
+- NumPy  
+- Matplotlib
+- Seaborn  
+- Scikit-learn  
 
 <p>
   <img src="https://img.shields.io/badge/R-Intermediate-276DC3?style=flat&logo=r&logoColor=white" alt="R Skill Badge">
-</p>
+</p> 
+- dplry
+- ggplot2
+- tidyr
+- lmtest
+- AER
+- fGarch
 
-- **Libraries/Frameworks:**  
-  - tidyverse  
-  - ggplot2  
-  - dplyr  
-  - caret  
 
 
 <!--
