@@ -6,8 +6,6 @@ collection: portfolio
 
 📎For more details, click [here](https://github.com/Danny-NG-9999/Professional-Projects/tree/main/E-Commerce)
 
-# 🧭 Project Overview: Strategic BI Analysis of Olist’s Brazilian E-Commerce Platform
----
 
 ## 🎯 Objective
 The primary objective of this project was to conduct a comprehensive end-to-end Business Intelligence (BI) analysis of Olist, a leading Brazilian e-commerce marketplace. Utilizing Power BI, Python, and MySQL, the project transformed raw transactional data into actionable insights to evaluate and enhance the platform’s operational performance, logistics efficiency, customer experience, and seller acquisition strategy.

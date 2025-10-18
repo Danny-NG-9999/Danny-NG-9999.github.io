@@ -6,8 +6,6 @@ collection: portfolio
 
 📎For more details, click [here](https://github.com/Danny-NG-9999/Academic-and-Personal-Projects/tree/main/Dissertation%20Project)
 
-# 🧭 Project Overview: Aviation Activity & Regional Productivity in the UK (1998–2023)
----
 
 ## 🎯 Objective
 The project aimed to quantify the dynamic relationship between airport activity and regional economic productivity across the UK’s 12 ITL1 regions from 1998 to 2023. Employing a Panel Vector Autoregression (PVAR) framework alongside Granger causality analysis, the study explored how passenger volumes and freight throughput influence Gross Value Added (GVA) per head — the primary productivity measure for this study.
