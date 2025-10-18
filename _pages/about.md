@@ -7,18 +7,17 @@ redirect_from:
   - /about.html
 ---
 
+Seeking a career as a Risk or Finance Analyst/Consultant to apply quantitative and analytical skills in generating insights that shape strategic business outcomes with clarity and impact.
+
 ## 🚀 About Me
-I’m a London-based MSc Financial Economics graduate from the University of Exeter with a passion for transforming complex data into meaningful insights that drive smarter financial and strategic decisions. My career has taken me through the worlds of finance, analytics, and technology — from uncovering £500k EBITDA adjustments in M&A deals at Grant Thornton to supporting large-scale data governance transformation projects for clients at KPMG.
+I’m a professional with a background in finance and consulting, passionate about solving complex problems and transforming data into actionable insights that drive smarter business decisions. My experience includes uncovering significant EBITDA adjustments in M&A deals at Grant Thornton and supporting large-scale data governance transformation projects for clients at KPMG.
 
-My journey into data has been driven by curiosity and a desire to understand what truly influences business performance. While working in finance and consulting, I saw firsthand how data can turn uncertainty into clarity — whether by uncovering hidden risks, identifying untapped opportunities, or translating complex information into actionable insights. I was particularly drawn to how thoughtful analysis and visualization can cut through the noise to reveal the real story behind the numbers and data. These experiences reinforced my belief that strategic, data-driven insights are critical for mitigating risks and delivering meaningful business impact. 
+Curiosity and impact guide my work. I enjoy leveraging analysis and visualization to uncover hidden risks, identify growth opportunities, and clarify uncertainty, helping decision-makers turn complex data into clear, strategic action. What excites me most is discovering insights that reveal the real story behind the numbers and inform meaningful business decisions.
 
-This realization ultimately inspired me to pursue an MSc in Financial Economics — a step that allowed me to strengthen my analytical foundation and allowed me to explore econometrics, data modeling, and predictive analysis in greater depth. The program helped me to bridge my financial background with a more data-driven mindset, equipping me with both the technical rigor and strategic perspective necessary to tackle complex business challenges.
+Beyond my professional work, I’m committed to sustainability, community, and continuous learning. I’ve volunteered with Food Action Exeter, distributing meals to those in need, and contributed to sustainability consulting projects recognized for their positive social impact.
 
-During my master’s dissertation, I researched how airport connectivity influences regional productivity across the UK — a project that showed how data can inform not only business strategy but also broader economic and policy decisions. Since then, I’ve continued to build on that passion by exploring financial analytics, visualization, and data storytelling. Through projects on Kaggle and GitHub, I enjoy transforming raw datasets into clear, actionable insights that drive smarter decisions and create measurable impact.
+Outside of work, I enjoy exploring cafés, attending local events, and spending time in green spaces. I thrive on uncovering insights that inspire action and enjoy connecting with others who share a passion for finance, analytics, and using data to create real-world impact.
 
-Beyond my professional work, I’m passionate about sustainability, community, and continuous learning. I’ve volunteered with Food Action Exeter to distribute meals to those in need and contributed to sustainability consulting projects recognized for their positive social impact.
-
-When I’m not working with data, you’ll often find me exploring London’s café scene, attending local events, or enjoying its parks and green spaces. I love that moment when data reveals something unexpected — and I’m always keen to connect with others who share an interest in finance, analytics, and using data to make a real-world impact.
 
 ## 🌱 Currently Learning
 - **Logistic Regression for Credit Risk Modeling**: Deepening knowledge in applying logistic regression techniques to assess and predict credit risk. This includes understanding feature selection, data preprocessing, handling imbalanced datasets, evaluating model performance using metrics and applying model interpretability techniques to ensure actionable insights for financial decision-making.
