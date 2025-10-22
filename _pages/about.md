@@ -10,13 +10,21 @@ redirect_from:
 Seeking a career as a Risk or Finance Analyst/Consultant to apply quantitative and analytical skills in generating insights that shape strategic business outcomes with clarity and impact.
 
 ## 🚀 About Me
-I’m a professional with a background in finance and consulting, passionate about solving complex problems and transforming data into actionable insights that drive smarter business decisions. My experience includes uncovering significant EBITDA adjustments in M&A deals at Grant Thornton and supporting large-scale data governance transformation projects for clients at KPMG.
+I’m a graduate with a professional background in finance and consulting, passionate about solving complex problems and transforming data into actionable insights that drive smarter business decisions. My experience encompasses financial due diligence, M&A advisory, and large-scale data transformation projects, with roles at KPMG and Grant Thornton in chronological order.
 
-Curiosity and impact guide my work. I enjoy leveraging analysis and visualization to uncover hidden risks, identify growth opportunities, and clarify uncertainty, helping decision-makers turn complex data into clear, strategic action. What excites me most is discovering insights that reveal the real story behind the numbers and inform meaningful business decisions.
+Through these experiences, I’ve developed the ability to uncover critical financial risks, perform in-depth analytical assessments, and support large-scale, compliant data transformation initiatives that strengthen business performance and governance.
 
-Beyond my professional work, I’m committed to sustainability, community, and continuous learning. I’ve volunteered with Food Action Exeter, distributing meals to those in need, and contributed to sustainability consulting projects recognized for their positive social impact.
+Guided by curiosity and impact, I enjoy leveraging data analysis, visualization, and strategic thinking to uncover hidden risks, identify growth opportunities, and clarify uncertainty — helping decision-makers turn complex data into clear, evidence-based action. What drives me most is discovering insights that reveal the real story behind the numbers and transforming insights into practical, evidence-based decisions that deliver measurable results. 
 
-Outside of work, I enjoy exploring cafés, attending local events, and spending time in green spaces. I thrive on uncovering insights that inspire action and enjoy connecting with others who share a passion for finance, analytics, and using data to create real-world impact.
+Some of my key achievements include:
+- Uncovered a £420K EBITDA adjustment through detailed financial analysis and review in an £5.5M M&A transaction at Grant Thornton, enhancing valuation accuracy and strengthening buyer negotiation leverage to achieve a more favorable purchase price.
+- Detected approximately £500K in unrecorded liabilities through targeted due diligence procedures, mitigating acquisition risk and securing a 5% enterprise value reduction plus SPA indemnities for the client.
+- Assessed access vulnerabilities and control gaps across multiple SOX compliance engagements at KPMG, facilitating remediation of five key control issues and improving clients’ overall IT governance and compliance posture.
+- Delivered data-driven climate policy recommendations in the VOIZ Climate Simulation Challenge, leveraging analytical insights to address real-world sustainability challenges and ranking Top 15 of 164 teams, recognized for rigor, creativity, and collaborative problem-solving under pressure.
+
+
+## 🧩 Beyond Work 
+Outside of my professional life, I’m committed to sustainability, community, and continuous learning. I’ve volunteered with Food Action Exeter, helping distribute meals to those in need, and contributed to sustainability consulting projects recognized for their positive social and environmental impact. Beyond that, I enjoy exploring local cafés, attending community events, and spending time in green spaces, always seeking new perspectives that inspire both insight and connection.
 
 
 ## 🌱 Currently Learning

@@ -29,7 +29,7 @@ author:
   bio              : ""
   location         : "London (willing to relocate)"
   university       : "University of Exeter"
-  degree           : "MSc Financial Economics"
+  degree           : "MSc Financial Economics" # https://fontawesome.com/icons/graduation-cap?f=classic&s=solid, edit in author-profile.html to change icon
   employer         : #
   uri              : # URL
   email            : "daniel.h.nguyen24@gmail.com" # Email address - if you want to display it on the site, otherwise leave blank
