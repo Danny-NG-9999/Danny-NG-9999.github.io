@@ -50,7 +50,7 @@ redirect_from:
 - **Objective:** Conducted a comprehensive Business Intelligence analysis of Olist’s e-commerce dataset (100,000+ orders, 2016–2018) to deliver actionable insights for improving sales, customer retention, and marketplace competitiveness.
 - **Methodology & Scope:** Utilized Power BI, Python, and MySQL to analyse 12 relational tables and develop interactive dashboards for insights across operational performance, logistics, customer reviews, and lead conversion.
 - **Results:**
-    - Identified 55% revenue concentration in three product categories and a 93.6% one-time buyer rate, recommending loyalty programs and category diversification to increase customer lifetime value by 10–15%.
+    - Identified 55% revenue concentration in three product categories and a 93.6% one-time buyer rate, recommending loyalty programmes and category diversification to increase customer lifetime value by 10–15%.
     - Uncovered critical operational bottlenecks, including 2.8-day seller-to-carrier delays and regional delivery disparities; proposed a dual logistics strategy — centralized fulfilment hubs for high-volume regions (e.g. São Paulo) and decentralized partnerships for low-volume areas along with ML-driven predictive models to reduce fulfilment variance.
 
 ### Analytical Research Project – MSc Dissertation, University of Exeter | United Kingdom | July 2025 – September 2025

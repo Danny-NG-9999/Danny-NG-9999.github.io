@@ -10,22 +10,23 @@ redirect_from:
 Seeking a career as a Risk or Finance Analyst/Consultant to apply quantitative and analytical skills in generating insights that shape strategic business outcomes with clarity and impact.
 
 ## 🚀 About Me
-I’m a graduate with a professional background in finance and consulting, passionate about solving complex problems and transforming data into actionable insights that drive smarter business decisions. My experience encompasses financial due diligence, M&A advisory, and large-scale data transformation projects, with roles at KPMG and Grant Thornton in chronological order.
-
-Through these experiences, I’ve developed the ability to uncover critical financial risks, perform in-depth analytical assessments, and support large-scale, compliant data transformation initiatives that strengthen business performance and governance.
-
-Guided by curiosity and impact, I enjoy leveraging data analysis, visualization, and strategic thinking to uncover hidden risks, identify growth opportunities, and clarify uncertainty — helping decision-makers turn complex data into clear, evidence-based action. What drives me most is discovering insights that reveal the real story behind the numbers and transforming insights into practical, evidence-based decisions that deliver measurable results. 
+I’m a graduate with a professional background in finance and consulting. My experience encompasses financial due diligence, M&A advisory, and large-scale data transformation projects, with roles at KPMG and Grant Thorton  
 
 Some of my key achievements include:
-- Uncovered a £420K EBITDA adjustment through detailed financial analysis and review in an £5.5M M&A transaction at Grant Thornton, enhancing valuation accuracy and strengthening buyer negotiation leverage to achieve a more favorable purchase price.
-- Detected approximately £500K in unrecorded liabilities through targeted due diligence procedures, mitigating acquisition risk and securing a 5% enterprise value reduction plus SPA indemnities for the client.
-- Assessed access vulnerabilities and control gaps across multiple SOX compliance engagements at KPMG, facilitating remediation of five key control issues and improving clients’ overall IT governance and compliance posture.
-- Delivered data-driven climate policy recommendations in the VOIZ Climate Simulation Challenge, leveraging analytical insights to address real-world sustainability challenges and ranking Top 15 of 164 teams, recognized for rigor, creativity, and collaborative problem-solving under pressure.
+* Financial Due Diligence: Uncover a £420K EBITDA adjustment in target valuation, strengthening buyer negotiation leverage to achieve a more favorable purchase price.
+* Risk Analysis: Detected £500K in unrecorded liabilities, mitigated acquisition risk and securing a 5% enterprise value reduction plus SPA indemnities for the client.
+* Data & IT: Assessed access vulnerabilities and control gaps across multiple SOX compliance engagements at KPMG, facilitating remediation of five key control issues and improving clients’ overall IT governance and compliance posture.
+* Delivered data-driven climate policy recommendations in the VOIZ Climate Simulation Challenge, leveraging analytical insights to address sustainability challenges and ranked 15/164. 
+
+Guided by curiosity and impact, I enjoy leveraging data analysis, visualization, and strategic thinking to uncover hidden risks, identify growth opportunities, and clarify uncertainty, helping decision-makers turn complex data into clear, evidence-based action.
 
 
 ## 🧩 Beyond Work 
-Outside of my professional life, I’m committed to sustainability, community, and continuous learning. I’ve volunteered with Food Action Exeter, helping distribute meals to those in need, and contributed to sustainability consulting projects recognized for their positive social and environmental impact. Beyond that, I enjoy exploring local cafés, attending community events, and spending time in green spaces, always seeking new perspectives that inspire both insight and connection.
+Outside of my studies, I am committed to sustainability, community, and continuous learning. I actively support local initiatives, notably volunteering with Food Action Exeter, where I managed inventory and distributed an average of 285 meal portions per month, addressing food poverty and earning recognition as a Top Volunteer.
 
+My commitment to sustainability led to my involvement in the HASS Sustainability Education Project at the University of Exeter. As part of a four-member postgraduate team, supported by a PhD researcher from the faculty, I collaborated with others to brainstorm research ideas, analyze data, and interpret findings that revealed how sustainability themes are embedded across the Faculty of Humanities, Arts, and Social Sciences (HASS). Our work was presented at the HASS Sustainability Education Excellence Symposia, where it sparked meaningful discussions among senior faculty and inspired follow-on initiatives. The project was commended by Dr. Nick Kirsop-Taylor, Senior Lecturer in Environmental Policy and Governance, for its quality, impact, and professionalism. Further details can be found in this [blog post on the University of Exeter Sustainability Space](https://sites.exeter.ac.uk/sustainabilityspace/2025/06/02/humanities-and-social-sciences-central-for-navigating-the-current-and-future-sustainability-crises-reporting-on-the-inaugural-hass-sustainability-education-excellence-symposia-by-dr-nick-kirsop-tayl/)
+
+In my personal time, I enjoy exploring local cafés, attending community events, and spending time in green spaces. These activities allow me to connect with others, appreciate nature, and maintain a balanced lifestyle.
 
 ## 🌱 Currently Learning
 - **Logistic Regression for Credit Risk Modeling**: Deepening knowledge in applying logistic regression techniques to assess and predict credit risk. This includes understanding feature selection, data preprocessing, handling imbalanced datasets, evaluating model performance using metrics and applying model interpretability techniques to ensure actionable insights for financial decision-making.
