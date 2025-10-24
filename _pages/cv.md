@@ -16,7 +16,7 @@ redirect_from:
 ***
 
 ### MSc Financial Economics | University of Exeter, United Kingdom | September 2024 – September 2025
-*   **Degree classification (GPA):** 2:1
+*   **Degree classification (GPA):** 2:1 (upper second-class honours) 
 *   **Key Modules:** Applied Econometric I (64%), Applied Econometric II (63%), Experimental and Behavioural Economics (83%), Economics of Corporate Finance (70%) and Topics in Financial Economics (60%).
 
 *   **Key Achievement:**
