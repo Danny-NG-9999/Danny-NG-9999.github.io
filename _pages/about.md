@@ -28,12 +28,6 @@ My commitment to sustainability led to my involvement in the HASS Sustainability
 
 In my personal time, I enjoy exploring local cafés, attending community events, and spending time in green spaces. These activities allow me to connect with others, appreciate nature, and maintain a balanced lifestyle.
 
-## 🌱 Currently Learning
-- **Logistic Regression for Credit Risk Modeling**: Deepening knowledge in applying logistic regression techniques to assess and predict credit risk. This includes understanding feature selection, data preprocessing, handling imbalanced datasets, evaluating model performance using metrics and applying model interpretability techniques to ensure actionable insights for financial decision-making.
-
-- **Advanced Machine Learning Techniques in Scikit-learn**: Exploring sophisticated machine learning algorithms and frameworks using Scikit-learn, including ensemble methods (Random Forest, Gradient Boosting, XGBoost), hyperparameter tuning, cross-validation strategies, and pipeline optimization. Emphasis is placed on developing robust, scalable, and efficient predictive models while adhering to best practices in model evaluation and deployment.
-
-
 ## 🛠️ Technical Skillset
 #### Data Analysis & Business Intelligence Visualization
 <p>
