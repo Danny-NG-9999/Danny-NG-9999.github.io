@@ -1,6 +1,6 @@
 ---
 title: "Portfolio 3: King County Housing Market Analysis and Price Prediction: Data-Driven Valuation of Residential Real Estate (USA)"
-excerpt: "A comprehensive data analytics and machine learning project focused on residential property valuation in King County, Washington. Leveraging Python and statistical modeling, the study explores key market drivers, price dynamics, and renovation ROI to deliver actionable insights for investors, policymakers, and real estate professionals. <br/><img src='/images/Renovation Premium by City (%) with P-values.png'>" # Preview image
+excerpt: "A comprehensive data analytics and machine learning project focused on residential property valuation in King County, Washington. Leveraging Python and statistical modeling, the study explores key market drivers, price dynamics, and renovation ROI to deliver actionable insights for investors, policymakers, and real estate professionals. <br/><img src='/images/Renovation Premium.png'>" # Preview image
 collection: portfolio
 ---
 
