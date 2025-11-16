@@ -1,6 +1,6 @@
 ---
-title: "Portfolio 3: King County Housing Market Analysis and Price Prediction: Data-Driven Valuation of Residential Real Estate (USA)"
-excerpt: "A comprehensive data analytics and machine learning project focused on residential property valuation in King County, Washington. Leveraging Python and statistical modeling, the study explores key market drivers, price dynamics, and renovation ROI to deliver actionable insights for investors, policymakers, and real estate professionals. <br/><img src='/images/Renovation Premium.png'>" # Preview image
+title: "Portfolio 3: Credit Risk Modelling & Default Prediction for Consumer Loan Risk Assessment (UK)"
+excerpt: "An end-to-end credit risk analytics evaluation project using a large-scale synthetic UK lending dataset. The study applies logistic regression and XGBoost to estimate default probability, evaluate threshold trade-offs, quantify misclassification losses, and derive portfolio-level insights for risk-based decisioning. <br/><img src='/images/calibration curve.png'>" # Preview image
 collection: portfolio
 ---
 
@@ -8,8 +8,7 @@ collection: portfolio
 
 
 ## 🎯 Objective
-
-The project aimed to develop a robust, data-driven framework for understanding and predicting residential housing prices in King County, Washington (2014). By integrating machine learning modeling with market analytics, it sought to identify key value drivers, quantify geographic price disparities, and generate actionable insights for investors, policymakers, and real estate professionals.
+This project aimed to build and validate a predictive credit risk model capable of estimating the probability of loan default in a UK consumer lending environment. Using a 500,000 record synthetic dataset designed to mirror real-world borrower behaviour, the analysis sought to benchmark modelling techniques, assess calibration and ROC performance, and translate model outputs into actionable insights for credit decisioning, risk appetite setting, and portfolio loss mitigation.
 
 ## ⚙️ Tasks
 - Data Preparation: Cleaned and transformed ~4,600 raw property records into a refined dataset of 4,401 entries through outlier removal, feature engineering, and variable standardization.
@@ -17,13 +16,26 @@ Exploratory Analysis: Investigated relationships among property size, amenities,
 Model Development: Trained and evaluated multiple regression models (Linear, Lasso, Decision Tree) using an 80/20 train-test split; assessed using R², MAE, RMSE, and cross-validation for performance stability.
 Insight Derivation: Analyzed renovation ROI, market segmentation, and city-level pricing trends to uncover region-specific investment opportunities and constraints.
 
-## 💡 Results
-- Model Performance: Achieved an R² of 0.76 on test data and MAE of ~$105K, explaining ~76% of price variance with strong generalization across mid-market properties.
-- Key Price Drivers: sqft_living (≈0.70 correlation) emerged as the strongest predictor, followed by bathrooms, city, bedrooms, and view. Condition and waterfront factors showed minimal influence.
-- Market Insights:
-    - Premium zones (cities such as Medina, Clyde Hill, Mercer Island, etc.) priced 2–3× above county average.
-    - Mid-tier areas (cities around $400K–$700K) formed the market’s stable core.
-    - Affordable segments (cities below $400K) offered entry-level options with limited growth.
+- Data Preparation: Cleaned, validated, and transformed a large-scale synthetic credit dataset; applied one-hot encoding, missing value imputation, and numeric standardisation to ensure consistent model inputs.
+- Exploratory Data Analysis: Examined borrower demographics, income distributions, loan characteristics, and interaction effects (e.g., loan-to-income, interest rate tiers). Identified clear relationships between risk bands, loan size, and default propensity.
+- Model Development: Implemented and compared Logistic Regression and XGBoost Classifier, using train–test splits, ROC-AUC analysis, calibration curves, threshold sensitivity tests, and feature importance evaluation.
+- Financial Impact Assessment: Estimated the expected loss consequences of false negatives (missed defaults) and benchmarked the economic benefits of model improvements.
 
-- Renovation ROI: Positive returns (+10–13%) in affluent cities; negative returns (–20% to –28%) in saturated markets like SeaTac and Tukwila.
-- Strategic Takeaway: Housing prices are driven by living space, location, and selective renovation strategy — emphasizing the need for location-specific investment and pricing decisions.
+## 💡 Results
+Model Performance:
+- XGBoost: AUC = 0.9347, capturing ~94% of defaulters at low false-positive rates and significantly reducing missed-default losses.
+- Logistic Regression: AUC = 0.8574, strong baseline but less effective at identifying high-risk borrowers in non-linear regions of the feature space.
+
+Threshold & Portfolio Insights:
+- Lower thresholds increased default recall but raised rejection rates; thresholds around 0.35–0.40 provided optimal trade-offs for risk appetite.
+
+Missed-default analysis:
+- LR Estimated Loss: £191.8M
+- XGBoost Estimated Loss: £116.0M → £75.8M reduction in unrealised losses using XGBoost.
+
+Calibration Results:
+- Logistic Regression: optimistic bias, underestimating probability of default in mid-risk segments.
+- XGBoost: slight pessimistic bias, but closer alignment with observed outcomes after validation.
+
+Strategic Takeaway:
+- Ensemble methods significantly enhance risk discrimination and materially reduce credit losses. Effective credit scoring requires calibrated PD estimates, threshold optimisation, and attention to borrower-level non-linearities.
