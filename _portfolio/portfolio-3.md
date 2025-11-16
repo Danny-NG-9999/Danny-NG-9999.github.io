@@ -4,7 +4,7 @@ excerpt: "An end-to-end credit risk analytics evaluation project using a large-s
 collection: portfolio
 ---
 
-📎For more details, click [here](https://github.com/Danny-NG-9999/Academic-and-Personal-Projects/tree/main/Data%20Analysis/House%20Price%20Prediction)
+📎For more details, click [here](https://github.com/Danny-NG-9999/Academic-and-Personal-Projects/tree/main/Economic/Credit%20Risk%20Modeling%20and%20Evaluation)
 
 
 ## 🎯 Objective
