@@ -8,7 +8,7 @@ collection: portfolio
 
 
 ## 🎯 Objective
-Built an end-to-end credit risk modelling framework for a UK private bank to predict Probability of Default (PD) and quantify portfolio risk via LGD, EAD, and Expected Loss (EL) under adverse macroeconomic conditions. The project aims to support risk-based pricing, capital allocation, and regulatory-aligned decision-making under Basel II/III principles.
+Developed a credit risk model to support lending decisions and reduce default-related losses for a UK private bank to predict Probability of Default (PD) and quantify portfolio risk via LGD, EAD, and Expected Loss (EL) under adverse macroeconomic conditions. The project aims to support risk-based pricing, capital allocation, and regulatory-aligned decision-making under Basel II/III principles.
 
 ## ⚙️ Tasks
 - **Data Preprocessing & Cleaning:** Handled missing values, treated outliers, and standardised numerical features to ensure data quality and model stability.
