@@ -14,10 +14,10 @@ I’m an MSc Financial Economics graduate (Merit, University of Exeter) with exp
 My experience spans evaluating financial statements, identifying unrecorded liabilities, and assessing revenue, contractual, and credit risks in M&A transactions.
 
 Some of my key achievements include:
-- Financial Due Diligence: Uncover a £420K EBITDA adjustment in target valuation, strengthening buyer negotiation leverage to achieve a more favorable purchase price.
-- Risk Analysis: Detected £500K in unrecorded liabilities, mitigated acquisition risk and securing a 5% enterprise value reduction plus SPA indemnities for the client.
-- Data & IT: Assessed access vulnerabilities and control gaps across multiple SOX compliance engagements at KPMG, facilitating remediation of five key control issues and improving clients’ overall IT governance and compliance posture.
-- Sustainability Analytics: Delivered data-driven climate policy recommendations in the VOIZ Climate Simulation Challenge, ranking 15th out of 164 teams through applied analytical insights.
+- **Financial Due Diligence:** Uncover a £420K EBITDA adjustment in target valuation, strengthening buyer negotiation leverage to achieve a more favorable purchase price.
+- **Risk Analysis:** Detected £500K in unrecorded liabilities, mitigated acquisition risk and securing a 5% enterprise value reduction plus SPA indemnities for the client.
+- **Data and IT governance:** Assessed access vulnerabilities and control gaps across multiple SOX compliance engagements at KPMG, facilitating remediation of five key control issues and improving clients’ overall IT governance and compliance posture.
+- **Sustainability Analytics:** Delivered data-driven climate policy recommendations in the VOIZ Climate Simulation Challenge, ranking 15th out of 164 teams through applied analytical insights.
 
 I am driven by curiosity and impact, leveraging data analysis, visualization, and strategic thinking to surface hidden risks, identify value opportunities, and translate complex information into clear, evidence-based recommendations for decision-making.
 

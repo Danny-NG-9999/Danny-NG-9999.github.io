@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-📎 Download a PDF version of this resume [here](/files/Resume_2025.pdf)
+📎 Download a PDF version of this resume [here](/files/CV_2026.pdf)
 
 
 ## EDUCATION
