@@ -10,16 +10,16 @@ redirect_from:
 Seeking a career as a Risk or Finance Analyst/Consultant to apply quantitative and analytical skills in generating insights that shape strategic business outcomes with clarity and impact.
 
 ## 🚀 About Me
-I’m a graduate with a professional background in finance and consulting. My experience encompasses financial due diligence, M&A advisory, and large-scale data transformation projects, with roles at KPMG and Grant Thorton  
+I’m an MSc Financial Economics graduate (Merit, University of Exeter) with experience in financial due diligence, M&A advisory, and large-scale data transformation across professional services environments, including KPMG and Grant Thornton. I was recognised with the Exeter Award and contributed to a high-impact consultancy project, developing strong capabilities in financial analysis, risk assessment, and data-driven decision-making.
+My experience spans evaluating financial statements, identifying unrecorded liabilities, and assessing revenue, contractual, and credit risks in M&A transactions.
 
 Some of my key achievements include:
-* Financial Due Diligence: Uncover a £420K EBITDA adjustment in target valuation, strengthening buyer negotiation leverage to achieve a more favorable purchase price.
-* Risk Analysis: Detected £500K in unrecorded liabilities, mitigated acquisition risk and securing a 5% enterprise value reduction plus SPA indemnities for the client.
-* Data & IT: Assessed access vulnerabilities and control gaps across multiple SOX compliance engagements at KPMG, facilitating remediation of five key control issues and improving clients’ overall IT governance and compliance posture.
-* Delivered data-driven climate policy recommendations in the VOIZ Climate Simulation Challenge, leveraging analytical insights to address sustainability challenges and ranked 15/164. 
+- Financial Due Diligence: Uncover a £420K EBITDA adjustment in target valuation, strengthening buyer negotiation leverage to achieve a more favorable purchase price.
+- Risk Analysis: Detected £500K in unrecorded liabilities, mitigated acquisition risk and securing a 5% enterprise value reduction plus SPA indemnities for the client.
+- Data & IT: Assessed access vulnerabilities and control gaps across multiple SOX compliance engagements at KPMG, facilitating remediation of five key control issues and improving clients’ overall IT governance and compliance posture.
+- Sustainability Analytics: Delivered data-driven climate policy recommendations in the VOIZ Climate Simulation Challenge, ranking 15th out of 164 teams through applied analytical insights.
 
-Guided by curiosity and impact, I enjoy leveraging data analysis, visualization, and strategic thinking to uncover hidden risks, identify growth opportunities, and clarify uncertainty, helping decision-makers turn complex data into clear, evidence-based action.
-
+I am driven by curiosity and impact, leveraging data analysis, visualization, and strategic thinking to surface hidden risks, identify value opportunities, and translate complex information into clear, evidence-based recommendations for decision-making.
 
 ## 🧩 Beyond Work 
 Outside of my studies, I am committed to sustainability, community, and continuous learning. I actively support local initiatives, notably volunteering with Food Action Exeter, where I managed inventory and distributed an average of 285 meal portions per month, addressing food poverty and earning recognition as a [Top Volunteer](/images/Food Action Exeter.png).

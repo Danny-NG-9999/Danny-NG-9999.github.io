@@ -27,6 +27,13 @@ redirect_from:
 
 ## PROFESSIONAL EXPERIENCE
 ---
+### Supervisor | Rosa Thai, United Kingdom | January 2026 - Present
+
+- **Operations and Process Management:** Directed shift-to-shift food and beverage operations, ensuring adherence to presentation standards, portion control, and service time targets. Managed opening and closing procedures using structured checklists to support smooth shift transitions, minimise errors, and maintain audit-ready conditions, while aligning front- and back-of-house teams to deliver consistent performance.
+- **Leadership and Cross-Functional Collaboration:** Led structured shift briefings to align team on roles, targets, and priorities, while mentoring new staff on service standards and portion control. Collaborated across front- and back-of-house during peak periods to resolve bottlenecks, support operations (including drink preparation and order packaging), and maintain efficient service delivery within target time frames.
+- **Customer Service and Quality Assurance:** Maintained high standards by verifying food and beverage quality prior to service and managing customer queries, complaints, and discretionary adjustments professionally, particularly during peak periods. Coordinated bookings and seating arrangements based on client needs and group size, contributing to consistently positive feedback and a high-quality service experience.
+- **Reporting, Data Analysis & Inventory Control:** Maintained accurate inventory records through end-of-day stock counts, date rotation, and labelling compliance; reconciled daily usage against sales data to support effective stock management, cost control, and informed ordering decisions. Produced end-of-shift reports covering sales, customer volumes, SPH, discounts, and operational issues, providing reliable data to support management decision-making and forecasting.
+
 
 ### Transaction Advisory Analyst | Grant Thornton, Vietnam | November 2022 – July 2024 
 
@@ -46,7 +53,18 @@ redirect_from:
 
 ## DATA ANALYTICS & RESEARCH PROJECTS
 ---
+### Credit Risk Analysis and Modelling
+
+- **Objective:** Built an end-to-end credit risk modelling framework for a UK private bank to predict Probability of Default (PD) and quantify portfolio risk via LGD, EAD, and Expected Loss (EL) under adverse macroeconomic conditions. The project aims to support risk-based pricing, capital allocation, and regulatory-aligned decision-making under Basel II/III principles.
+- **Methodology:** Processed ~400K loan records (23 variables) through a robust modelling pipeline, including data cleaning, WoE/IV-based feature engineering, and train/test/holdout validation to prevent data leakage. Developed an interpretable Logistic Regression scorecard and benchmarked it against ensemble methods. Addressed class imbalance using ADASYN and SMOTE variants, and optimised decision thresholds using ROC analysis and Youden’s Index. Evaluated model performance using ROC-AUC, Gini coefficient, Kolmogorov–Smirnov (KS) statistic, CAP curve, and confusion matrix metrics, with a focus on maximising recall to minimise credit losses. Implemented LGD, EAD, and EL calculations to enable monetary risk quantification.
+- **Result:** 
+  - Model performance: Logistic Regression achieved ROC-AUC = 0.9524, Gini = 0.9048, and KS = 0.7703, with 92.73% recall, effectively capturing the majority of defaulters.
+  - Risk drivers: Loan-to-value, interest rate and regularity of income inflows (IV > 0.5) were identified as the primary predictors, outperforming traditional variables such as income level and employment length.
+  - Business impact: Reduced missed defaults to 554 out of 7,617, significantly limiting loss exposure. CAP analysis showed that ~90% of defaulters were captured within the top 20% of the highest-risk segment, enabling more targeted and efficient underwriting.
+  - Financial integration: The Expected Loss (EL) framework translated model outputs into monetary terms (e.g., rejecting a small business loan with EL = £39.7k versus approving a home improvement loan with EL = £42), supporting automated credit decision-making and portfolio risk optimisation.
+
 ### BI Analytics Project – Olist’s E-Commerce Platform (Brazil) | United Kingdom | October 2025 - October 2025
+
 - **Objective:** Conducted a comprehensive Business Intelligence analysis of Olist’s e-commerce dataset (100,000+ orders, 2016–2018) to deliver actionable insights for improving sales, customer retention, and marketplace competitiveness.
 - **Methodology & Scope:** Utilized Power BI, Python, and MySQL to analyse 12 relational tables and develop interactive dashboards for insights across operational performance, logistics, customer reviews, and lead conversion.
 - **Results:**
@@ -54,6 +72,7 @@ redirect_from:
     - Uncovered critical operational bottlenecks, including 2.8-day seller-to-carrier delays and regional delivery disparities; proposed a dual logistics strategy — centralized fulfilment hubs for high-volume regions (e.g. São Paulo) and decentralized partnerships for low-volume areas along with ML-driven predictive models to reduce fulfilment variance.
 
 ### Analytical Research Project – MSc Dissertation, University of Exeter | United Kingdom | July 2025 – September 2025
+
 - **Objective:** Investigated the dynamic relationship between airport activity (passenger volumes and freight throughput) and regional economic productivity (GVA per head) across 12 UK ITL1 regions, testing for bidirectional causality to provide evidence-based insights informing the UK’s Levelling Up agenda, aviation policy, and regional development strategies.
 - **Methodology:** Employed Panel Vector Autoregression (PVAR) and Granger causality tests on a balanced panel dataset (1998–2023, 312 observations) using R Studio, integrating UK Civil Aviation Authority (CAA) airport data with Office for National Statistics (ONS) regional GVA metrics; analysed impacts while controlling for population density, applying stationarity tests (Im-Pesaran-Shin), logarithmic transformations, and lag selection (AIC/SC) for robust econometric modelling..
 - **Result:** 

@@ -1,48 +1,27 @@
 ---
-title: "Portfolio 1: Airport Activity and Regional Productivity in the United Kingdom: An Empirical Study of Connectivity, Freight Operations, and Economic Growth (1998–2023)"
-excerpt: "This project analyzes the relationship between airport activity and regional economic productivity across the UK’s 12 ITL1 regions (1998–2023) using Panel Vector Autoregression (PVAR) and Granger causality analysis, providing evidence-based insights to guide aviation policy, regional development, and infrastructure investment decisions.<br/><img src='/images/Dissertation (Granger Causality).png'>"
+title: "Portfolio 3: End-to-End Credit Risk Modelling & Portfolio Risk Analytics (UK)"
+excerpt: "An end-to-end credit risk modelling project using a large-scale synthetic UK lending dataset to estimate Probability of Default (PD) and quantify portfolio risk through LGD, EAD, and Expected Loss (EL) under stressed macroeconomic conditions. The framework combines interpretable Logistic Regression with advanced machine learning models, enhanced by LIME for local explainability, to support risk-based pricing, optimise decision thresholds, and enable data-driven, Basel II/III-aligned credit decision-making. <br/><img src='/images/lending_overview.png'>" # Preview image
 collection: portfolio
 ---
 
-📎For more details, click [here](https://github.com/Danny-NG-9999/Academic-and-Personal-Projects/tree/main/Dissertation%20Project)
+📎For more details, click [here](https://github.com/Danny-NG-9999/Academic-and-Personal-Projects/tree/main/Economic/Credit%20Risk%20Modeling)
 
 
 ## 🎯 Objective
-The project aimed to quantify the dynamic relationship between airport activity and regional economic productivity across the UK’s 12 ITL1 regions from 1998 to 2023. Employing a Panel Vector Autoregression (PVAR) framework alongside Granger causality analysis, the study explored how passenger volumes and freight throughput influence Gross Value Added (GVA) per head — the primary productivity measure for this study.
-
-The overarching goal was to deliver evidence-based insights to inform aviation policy, regional development strategy, and infrastructure investment decisions, clarifying whether airports function primarily as drivers of economic growth or as responders to regional economic performance in the UK context
-
+Built an end-to-end credit risk modelling framework for a UK private bank to predict Probability of Default (PD) and quantify portfolio risk via LGD, EAD, and Expected Loss (EL) under adverse macroeconomic conditions. The project aims to support risk-based pricing, capital allocation, and regulatory-aligned decision-making under Basel II/III principles.
 
 ## ⚙️ Tasks
-- Data Collection & Preparation: Assembled a balanced panel dataset (1998–2023, 312 observations) integrating ONS Regional Accounts (GVA per head, population density) and CAA airport data (passenger volumes, freight, ATMs) for 12 ITL1 regions, focusing on top three airports per region. Applied logarithmic transformations and Im-Pesaran-Shin stationarity tests.
-- Econometric Analysis: Utilized R Studio to implement Panel Vector Autoregression (PVAR), Dumitrescu-Hurlin Granger causality tests, and Impulse Response Functions (IRFs), with lag selection via AIC and Schwarz criteria, to model dynamic interactions between airport activity and productivity.
-- Policy Formulation: Developed evidence-based recommendations to optimize aviation infrastructure investments based on findings.
+- **Data Preprocessing & Cleaning:** Handled missing values, treated outliers, and standardised numerical features to ensure data quality and model stability.
+- **Feature Engineering (WoE/IV):** Transformed variables using Weight of Evidence (WoE) and selected features based on Information Value (IV) to enhance predictive power and maintain interpretability.
+- **Data Splitting & Validation:** Implemented a train/test/holdout framework to ensure robust model evaluation and prevent data leakage.
+- **Model Development (Scorecard & Benchmarking):** Built an interpretable Logistic Regression scorecard model and benchmarked performance against ensemble methods (e.g., Random Forest, XGBoost).
+- **Class Imbalance Handling:** Applied resampling techniques (ADASYN, SMOTE variants) to improve detection of rare default events.
+- **Threshold Optimisation:** Tuned classification thresholds using ROC analysis and Youden’s Index to balance sensitivity and specificity, prioritising recall.
+- **Model Evaluation & Validation:** Assessed performance using ROC-AUC, Gini coefficient, KS statistic, CAP curve, and confusion matrix metrics to evaluate discrimination and classification effectiveness.
+- **Risk Quantification (LGD, EAD, EL):** Implemented LGD and EAD estimation and calculated Expected Loss (EL = PD × LGD × EAD) to translate model outputs into monetary risk measures.
 
 ## 💡 Results
-
-**1️⃣ Passenger Activity — Productivity Driver**
-- Causality: Passenger volumes Granger-cause regional productivity (Z = 23.143, p < 0.001).
-- Short-Term Impact: Slight negative adjustment (–0.0335), reflecting congestion and transition costs.
-- Medium-Term Impact: Positive productivity gains (+0.0183) emerge after 1–2 years as connectivity benefits materialize.
-- Key Factor: Aircraft movements (ATMs) have a stronger influence than passenger volume alone, highlighting flight frequency and connectivity quality over passengers volume.
-
-**2️⃣ Freight Activity — Productivity Responder**
-- Causality: Productivity drives freight growth (Z = 3.382, p < 0.01); freight does not Granger-cause productivity.
-- Reflects the UK’s service-based economy, where air cargo expands in response to economic activity rather than stimulating it.
-- Freight growth typically lags productivity increases by ~2 years.
-
-| Relationship             | Causality  |
-| ------------------------ | -----------|
-| Passenger → Productivity | ✅ Yes     |
-| Productivity → Passenger | ❌ No      |
-| Freight → Productivity   | ❌ No      |
-| Productivity → Freight   | ✅ Yes     |
-
-**3️⃣ Strategic Implications**
-- Invest in network reliability and route frequency, not just airport capacity.
-- Treat airports as connectivity enablers, not standalone growth engines.
-- Align freight infrastructure with productive regions rather than using it to initiate growth.
-- For major hubs (e.g., LHR, MAN, EDI): focus on operational efficiency and sustainability.
-- For emerging regions: prioritize route diversification to enhance regional inclusion.
-
-Overall, airports in the UK act as catalysts for regional productivity through enhanced connectivity — but only when integrated with strong regional economic structures. Their economic value is contingent on operational quality, network diversity, and alignment with regional strengths, rather than sheer volume growth.
+- **Model performance:** Logistic Regression achieved ROC-AUC = 0.9524, Gini = 0.9048, and KS = 0.7703, with 92.73% recall, effectively capturing the majority of defaulters.
+- **Risk drivers:** Loan-to-value, interest rate and regularity of income inflows (IV > 0.5) were identified as the primary predictors, outperforming traditional variables such as income level and employment length.
+- **Business impact:** Reduced missed defaults to 554 out of 7,617, significantly limiting loss exposure. CAP analysis showed that ~90% of defaulters were captured within the top 20% of the highest-risk segment, enabling more targeted and efficient underwriting.
+- **Financial integration:** The Expected Loss (EL) framework translated model outputs into monetary terms (e.g., rejecting a small business loan with EL = £39.7k versus approving a home improvement loan with EL = £42), supporting automated credit decision-making and portfolio risk optimisation.
