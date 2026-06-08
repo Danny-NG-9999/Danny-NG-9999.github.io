@@ -1,8 +1,9 @@
 ---
-title: "Portfolio 3: End-to-End Credit Risk Modelling & Portfolio Risk Analytics (UK)"
-excerpt: "An end-to-end credit risk modelling project using a large-scale synthetic UK lending dataset to estimate Probability of Default (PD) and quantify portfolio risk through LGD, EAD, and Expected Loss (EL) under stressed macroeconomic conditions. The framework combines interpretable Logistic Regression with advanced machine learning models, enhanced by LIME for local explainability, to support risk-based pricing, optimise decision thresholds, and enable data-driven, Basel II/III-aligned credit decision-making. <br/><img src='/images/lending_overview.png'>" # Preview image
+title: "Portfolio 3: Basel-Aligned Multi-Stage Credit Risk Modeling Framework: Development and Application (White-Box model)"
+excerpt: "A Basel-aligned multi-stage credit risk modeling framework built on ~250,000 Lending Club consumer loans, estimating Probability of Default (PD), Loss Given Default (LGD), and Exposure at Default (EAD) using transparent white-box models. The framework integrates class-weighted logistic regression, a two-stage LGD hurdle model, and Credit Conversion Factor (CCF)-based EAD estimation to generate Expected Loss (EL) forecasts. Independently validated on a 50,000-loan holdout sample, supporting risk-based pricing, stress testing, capital planning, and portfolio credit risk management. <br/><img src='/images/lending_overview.png'>" # Preview image
 collection: portfolio
 ---
+
 
 📎For more details, click [here](https://github.com/Danny-NG-9999/Academic-and-Personal-Projects/tree/main/Economic/Credit%20Risk%20Modeling)
 
