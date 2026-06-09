@@ -11,17 +11,31 @@ Developed a comprehensive, white-box, Basel-compliant multi-stage credit risk mo
 
 ## ⚙️ Tasks
 - **Data Preparation & Feature Engineering**
-    - Processed over 250,000 loans from a dataset containing 152 raw variables.
-    - Performed missing-value treatment, exploratory data analysis (EDA), feature engineering, and outlier assessment.
-    - Reduced the dataset to 34 predictive features using:
-        - Variance Inflation Factor (VIF)
-        - Condition Index (CI)
-        - Weight of Evidence (WoE)
-        - Information Value (IV)
-Probability of Default (PD) Modeling
-Developed a class-weighted Logistic Regression scorecard model.
-Applied Youden's Index for threshold optimisation.
-Evaluated using ROC-AUC, Gini, KS Statistic, Recall, Precision, and Calibration metrics.
+    - Processed over 250,000 loan records from a raw dataset of 152 variables, addressing missing values, outliers, and inconsistent entries through systematic and robust data cleaning to establish a stable and audit‑ready modeling baseline
+    - Engineered and selected 34 high‑predictive features using a rigorous multi‑step process:
+        - Multicollinearity assessment: Applied Variance Inflation Factor (VIF) and Condition Index (CI) to detect and remove redundant variables, ensuring model stability and interpretability.
+        - Predictive power assessment: Used Weight of Evidence (WoE) transformation and Information Value (IV) to quantify variable predictive strength and retain features with meaningful discriminatory power relatives to default and recovery outcomes.
+    - This approach ensured a parsimonious, interpretable feature set that balances predictive performance with model transparency, while minimizing data leakage, reducing overfitting risk, and aligning with best practices for regulatory credit risk modeling and scorecard development.
+
+- **Probability of Default (PD) Modeling**
+    - Developed a class-weighted Logistic Regression scorecard model.
+    - Applied Youden's Index for threshold optimisation.
+    - Evaluated using ROC-AUC, Gini, KS Statistic, Recall, Precision and CAP curve
+
+Handling class imbalance: Built a class‑weighted Logistic Regression scorecard that directly accounts for the rare nature of defaults, avoiding artificial resampling and preserving the natural default rate for better calibration.
+
+Threshold optimisation: Applied Youden’s Index to select an optimal classification threshold, deliberately prioritising recall (72%) over precision to minimise the costly error of missing actual defaults – a strategic choice for credit risk.
+
+Comprehensive evaluation: Assessed model performance using a full suite of metrics – ROC‑AUC and Gini for ranking ability, KS for separation power, recall and precision for classification trade‑offs, and Brier score for probability calibration – ensuring the model is both discriminative and well‑calibrated.
+
+
+
+    Built a class‑weighted Logistic Regression scorecard model to directly handle severe class imbalance (rare defaults).
+
+Optimised the classification threshold using Youden’s Index, balancing sensitivity and specificity with a deliberate preference for high recall (catching defaults).
+
+Evaluated discrimination and calibration via ROC‑AUC, Gini coefficient, KS statistic, recall, precision, and Brier score – ensuring both ranking ability and probability accuracy.
+
 Loss Given Default (LGD) Modeling
 Implemented a two-stage hurdle framework:
 Stage 1: Logistic Regression predicting recovery occurrence.
