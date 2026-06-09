@@ -22,11 +22,9 @@ Developed a comprehensive, white-box, Basel-compliant multi-stage credit risk mo
     - Applied Youden's Index for threshold optimisation.
     - Evaluated using ROC-AUC, Gini, KS Statistic, Recall, Precision and CAP curve
 
-Handling class imbalance: Built a class‑weighted Logistic Regression scorecard that directly accounts for the rare nature of defaults, avoiding artificial resampling and preserving the natural default rate for better calibration.
-
-Threshold optimisation: Applied Youden’s Index to select an optimal classification threshold, deliberately prioritising recall (72%) over precision to minimise the costly error of missing actual defaults – a strategic choice for credit risk.
-
-Comprehensive evaluation: Assessed model performance using a full suite of metrics – ROC‑AUC and Gini for ranking ability, KS for separation power, recall and precision for classification trade‑offs, and Brier score for probability calibration – ensuring the model is both discriminative and well‑calibrated.
+- Handling class imbalance: Built a class‑weighted Logistic Regression scorecard that directly accounts for the rare nature of defaults, avoiding artificial resampling and preserving the natural default rate
+- Threshold optimisation: Applied Youden’s Index to select an optimal classification threshold, deliberately prioritising recall (72%) over precision to minimise the costly error of missing actual defaults – a strategic choice for credit risk.
+- Comprehensive evaluation: Assessed model performance using a full suite of metrics – ROC‑AUC and Gini for ranking ability, KS for separation power, recall and precision for classification trade‑offs, and Brier score for probability calibration – ensuring the model is both discriminative and well‑calibrated.
 
 
 
