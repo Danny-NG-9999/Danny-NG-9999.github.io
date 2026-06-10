@@ -1,61 +1,33 @@
 ---
-title: "Portfolio 3: Basel-Aligned Multi-Stage Credit Risk Modeling Framework: Development and Application (White-Box model)"
-excerpt: "A Basel-aligned multi-stage credit risk modeling framework built on ~250,000 Lending Club consumer loans, estimating Probability of Default (PD), Loss Given Default (LGD), and Exposure at Default (EAD) using transparent white-box models. The framework integrates class-weighted logistic regression, a two-stage LGD hurdle model, and Credit Conversion Factor (CCF)-based EAD estimation to generate Expected Loss (EL) forecasts. Independently validated on a 50,000-loan holdout sample, supporting risk-based pricing, stress testing, capital planning, and portfolio credit risk management. <br/><img src='/images/Lending Club EDA.png'>" # Preview image
+title: "Portfolio 3: Strategic BI Analysis of the Brazilian E-Commerce Platform (Olist) "
+excerpt: "A comprehensive Business Intelligence project analyzing the Brazilian e-commerce platform Olist using Power BI, Python, and MySQL to uncover data-driven insights on sales performance, customer behavior, logistics efficiency, and lead conversion. <br/><img src='/images/Power BI (Olist).png'>"
 collection: portfolio
 ---
 
-📎For more details, click [here](https://github.com/Danny-NG-9999/Academic-and-Personal-Projects/tree/main/Economic/Multi-Stage%20Credit%20Risk%20Modeling)
+📎For more details, click [here](https://github.com/Danny-NG-9999/Professional-Projects/tree/main/E-Commerce)
+
 
 ## 🎯 Objective
-Developed a comprehensive, white-box, Basel-compliant multi-stage credit risk modeling framework to estimate Probability of Default (PD), Loss Given Default (LGD), Exposure at Default (EAD), and Expected Loss (EL) using real-world Lending Club data. The project aims to provide transparent, interpretable, and regulator-friendly risk quantification to support credit underwriting, portfolio monitoring, risk-based pricing, and capital planning.
+The primary objective of this project was to conduct a comprehensive end-to-end Business Intelligence (BI) analysis of Olist, a leading Brazilian e-commerce marketplace. Utilizing Power BI, Python, and MySQL, the project transformed raw transactional data into actionable insights to evaluate and enhance the platform’s operational performance, logistics efficiency, customer experience, and seller acquisition strategy.
+
+The ultimate goal was to provide data-driven recommendations that support sustainable growth, improve customer retention, and strengthen marketplace competitiveness through analytical rigor and strategic insight.
+
+Specifically, the analysis aimed to:
+- Assess marketplace performance by analyzing sales patterns, revenue concentration, and customer purchasing behavior.
+- Identify logistical inefficiencies across the order fulfillment and delivery pipeline.
+- Uncover customer sentiment drivers through review and feedback data to pinpoint sources of satisfaction and dissatisfaction.
+- Assess lead conversion and marketing channel performance to optimize seller acquisition.
 
 ## ⚙️ Tasks
-- **Data Preparation & Feature Engineering**
-    - Processed over 250,000 loan records from a raw dataset of 152 variables, addressing missing values, outliers, and inconsistent entries through systematic and robust data cleaning to establish a stable and audit‑ready modeling baseline
-    - Engineered and selected 34 high‑predictive features using a rigorous multi‑step process:
-        - **Multicollinearity assessment:** Applied Variance Inflation Factor (VIF) and Condition Index (CI) to detect and remove redundant variables, ensuring model stability and interpretability.
-        - **Predictive power assessment:** Used Weight of Evidence (WoE) transformation and Information Value (IV) to quantify variable predictive strength and retain features with meaningful discriminatory power relatives to default and recovery outcomes.
-    - This approach ensured a parsimonious, interpretable feature set that balances predictive performance with model transparency, while minimizing data leakage, reducing overfitting risk, and aligning with best practices for regulatory credit risk modeling and scorecard development.
-
-- **Probability of Default (PD) Modeling**
-    - **Handling class imbalance:** Developed a class-weighted Logistic Regression scorecard to address the inherently low default rate within consumer lending portfolios. This approach preserves the natural class distribution while improving the model's ability to identify high-risk borrowers without relying on synthetic resampling techniques.
-    - **Risk-Based Threshold Optimization:** Optimized the classification threshold using Youden's Index, balancing sensitivity and specificity while intentionally prioritizing default detection (72% Recall). This reflects a practical credit-risk strategy where failing to identify a future defaulter is significantly more costly than generating additional false-positive alerts.
-    - **Scorecard Development & Interpretability:** Leveraged a transparent white-box modeling framework to produce interpretable borrower risk scores, enabling clear explanation of lending decisions and alignment with regulatory expectations under Basel IRB principles.
-    - **Comprehensive Model Validation:** Evaluated discriminatory power, ranking performance, classification effectiveness, and probability calibration using a robust suite of metrics including ROC-AUC (0.77), Gini (0.53) and KS Statistic (0.40). This ensured the model not only differentiates effectively between good and bad borrowers but also produces reliable default probability estimates suitable for downstream LGD, EAD, and Expected Loss calculations.
-
-- **Loss Given Default (LGD) Modeling**
-    - Developed a two-stage LGD framework to reflect the real-world recovery process following borrower default. Rather than treating all recovery outcomes identically, the model separates the decision of whether any recovery occurs from the estimation of how much is ultimately recovered.
-        - **Stage 1 – Recovery Classification:** A class-weighted Logistic Regression model predicts whether a defaulted loan will generate any recovery proceeds, distinguishing recoverable accounts from complete write-offs.
-        - **Stage 2 – Recovery Rate Estimation:** For loans predicted to have recoveries, an Ordinary Least Squares (OLS) regression model estimates the magnitude of the recovery rate.
-    - **Business Value:** Recovery outcomes are typically characterized by a large proportion of zero recoveries (no recovery) alongside a smaller number of positive recoveries. By modeling these processes separately, the framework better captures the underlying recovery dynamics, improves predictive stability, and provides more transparent estimates for loss forecasting, capital provisioning, and portfolio risk management.
-
-- **Exposure at Default (EAD) Modeling**
-    - Developed a Credit Conversion Factor (CCF) based Linear Regression model to estimate borrower exposure at the point of default. Leveraged loan balance, repayment behaviour, and credit utilization characteristics to model expected exposure levels, supporting Basel-compliant EAD estimation and portfolio-level Expected Loss calculations.
-
-- **Model Validation**
-    - Performed independent out‑of‑sample validation using a 50,000‑loan holdout dataset that was completely excluded from model development (feature selection, training, and tuning).
-    - Assessed the stability and generalization of all three risk components (PD, LGD, EAD) by comparing key performance metrics between the test set and the holdout set.
+- **Data Extraction & Cleaning:** Processed and cleaned a dataset of 96,100 unique customers, 3,100 active sellers, and ~99,500 orders using MySQL and Python, ensuring data integrity across 12 relational tables (orders, payments, reviews, geolocation).
+- **Exploratory Data Analysis (EDA):** Conducted SQL-based analysis (CTEs, window functions) and Python visualizations (heatmaps, word clouds) to uncover patterns in sales trends, logistics performance, customer behavior, and lead conversion.
+- **Modeling & Visualization:** Developed interactive Power BI dashboards to visualize key performance indicators (KPIs) across four domains: operational performance, logistics, customer reviews, and lead conversion.
+- **Strategic Recommendations:** Formulated evidence-based strategies to address identified inefficiencies, leveraging machine learning, process optimization, and targeted marketing initiatives.
 
 ## 💡 Results
-- **PD Model Performance**
-    - ROC‑AUC = 0.77, Gini = 0.53 and KS = 0.40 – Demonstrates strong borrower risk discrimination, significantly above random chance and well within industry acceptance for retail credit scoring.
-    - Recall = 72%** – Captures nearly three‑quarters of actual default events, enabling early identification of high‑risk accounts despite severe class imbalance.
+- **Operational Performance:** Identified sales peaks in August ($2.18M) and March ($1.77M), with a low average order value ($15.73) and 55% revenue concentration in three categories (Sports & Leisure, Health & Beauty, Cool Stuff). Proposed ML-based demand forecasting, free shipping thresholds, and category diversification to increase customer lifetime value by 10–15%. Highlighted a 93.6% one-time buyer rate, recommending loyalty programs to boost retention.
+- **Logistics Performance:** Uncovered a 2.8-day seller-to-carrier handoff delay and regional disparities, with Southeast states dominating revenue. Suggested a dual logistics model (SP/RJ fulfillment hub, decentralized partnerships) and a Predictive Delivery Promise Engine to reduce fulfillment variability by 10%.
+- **Customer Reviews:** Found negative reviews driven by delivery delays and product mismatches in high-risk categories (e.g., Furniture, Electronics). Recommended packaging compliance, seasonal capacity planning, and a 3-star recovery program to enhance satisfaction.
+- **Lead Conversion:** Noted 62% of closed leads from high-intent channels (Paid Search, Organic Search, Direct Traffic) and 69.7% reseller dominance. Proposed scaling SEO, a tiered referral program, and a Manufacturer Enablement Program to diversify the seller ecosystem and reduce acquisition costs.
 
-- **LGD Model Performance**
-    - **Recovery Classification (Stage 1):** ROC‑AUC = 0.72, Recall = 84% – Effectively flags defaulted accounts that will yield any recovery, minimising missed recovery opportunities.
-    - **Recovery Rate Estimation (Stage 2):** MAE = 0.03, RMSE = 0.05 – Low prediction errors support reliable estimates of post-default recovery outcomes for portfolio-level loss forecasting.
-
-- **EAD Model Performance**
-    - R² = 0.35, MAE = 0.08 – Explains 35% of exposure variability with an average prediction error of 8 percentage points, representing solid predictive performance for estimating borrower exposure at the point of default.
-    - Among the three risk components (PD, LGD, EAD), the EAD model demonstrated the strongest out‑of‑sample consistency and stability. This is expected, as EAD is largely driven by observable factors such as remaining loan balance, payment history, and credit utilisation patterns – making it inherently more predictable than loss severity or default probability.
-
-- **Model Robustness & Validation**
-    - Independent validation on a 50,000-loan holdout dataset showed minimal performance deterioration across all risk parameters:
-        - PD ROC-AUC → Δ = 0.0039
-        - LGD MAE → Δ = 0.0119
-        - EAD MAE → Δ = 0.0020
-- Results indicate strong model stability, limited overfitting, and robust out‑of‑sample generalisation – critical for regulatory acceptance and production deployment.
-
-- **Business & Risk Management Impact**
-    - Developed a fully interpretable Basel IRB-aligned white-box framework that decomposes credit risk into PD, LGD, and EAD components rather than relying on a single black-box prediction.
-    - Demonstrated how regulatory credit risk concepts can be operationalised into a practical decision-support framework for retail lending portfolios.
+In summary, the analysis revealed Olist’s strengths in seller acquisition and sales volume but highlighted logistical bottlenecks and retention challenges. Strategic recommendations, including ML-driven logistics, loyalty initiatives, and ecosystem diversification, are projected to drive a 10–15% increase in customer lifetime value and enhance market penetration in underdeveloped regions.
