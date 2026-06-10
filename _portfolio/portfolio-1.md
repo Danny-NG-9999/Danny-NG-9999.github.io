@@ -32,7 +32,7 @@ Developed a comprehensive, white-box, Basel-compliant multi-stage credit risk mo
 Two‑Stage LGD Framework: Developed a model that separates recovery prediction into two distinct questions – will anything be recovered? and how much?
 
 Stage 1 – Recovery Classification (Logistic Regression): Predicts whether a defaulted loan will yield any recovery at all, distinguishing partial recoveries from total write‑offs.
-
+1
 Stage 2 – Recovery Rate Estimation (OLS Regression): For loans expected to recover something, estimates the exact recovery percentage.
 
 Business Value: Recovery data typically contains many zeros (no recovery) and fewer positive values. By modelling the two processes separately, the framework captures this reality more accurately, leading to better stability, clearer interpretation, and more reliable inputs for loss forecasting and capital provisioning.
