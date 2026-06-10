@@ -25,19 +25,29 @@ Developed a comprehensive, white-box, Basel-compliant multi-stage credit risk mo
 
 - **Loss Given Default (LGD) Modeling**
     - Developed a two-stage LGD framework to reflect the real-world recovery process following borrower default. Rather than treating all recovery outcomes identically, the model separates the decision of whether any recovery occurs from the estimation of how much is ultimately recovered.
-        - Stage 1 – Recovery Classification: A class-weighted Logistic Regression model predicts whether a defaulted loan will generate any recovery proceeds, distinguishing recoverable accounts from complete write-offs.
-        - Stage 2 – Recovery Rate Estimation: For loans predicted to have recoveries, an Ordinary Least Squares (OLS) regression model estimates the magnitude of the recovery rate.
+        - **Stage 1 – Recovery Classification:** A class-weighted Logistic Regression model predicts whether a defaulted loan will generate any recovery proceeds, distinguishing recoverable accounts from complete write-offs.
+        - **Stage 2 – Recovery Rate Estimation:** For loans predicted to have recoveries, an Ordinary Least Squares (OLS) regression model estimates the magnitude of the recovery rate.
     - **Business Value:** Recovery outcomes are typically characterized by a large proportion of zero recoveries (no recovery) alongside a smaller number of positive recoveries. By modeling these processes separately, the framework better captures the underlying recovery dynamics, improves predictive stability, and provides more transparent estimates for loss forecasting, capital provisioning, and portfolio risk management.
 
-Exposure at Default (EAD) Modeling
-Developed a Credit Conversion Factor (CCF) based Linear Regression model to estimate exposure at the point of default.
-Model Validation
-Conducted independent out-of-sample validation using a 50,000-loan holdout dataset to assess robustness and generalisation performance.
+- **Exposure at Default (EAD) Modeling**
+    - Developed a Credit Conversion Factor (CCF) based Linear Regression model to estimate borrower exposure at the point of default. Leveraged loan balance, repayment behaviour, and credit utilization characteristics to model expected exposure levels, supporting Basel-compliant EAD estimation and portfolio-level Expected Loss calculations.
+
+- **Model Validation**
+    - Performed independent out‑of‑sample validation using a 50,000‑loan holdout dataset that was completely excluded from model development (feature selection, training, and tuning).
+    - Assessed the stability and generalization of all three risk components (PD, LGD, EAD) by comparing key performance metrics between the test set and the holdout set.
 
 ## 💡 Results
+- **PD Model Performance**
+    - ROC‑AUC = 0.77, Gini = 0.53 and KS = 0.40 – Demonstrates strong borrower risk discrimination, significantly above random chance and well within industry acceptance for retail credit scoring.
+    - Recall = 72%** – Captures nearly three‑quarters of actual default events, enabling early identification of high‑risk accounts despite severe class imbalance.
 
+- **LGD Model Performance**
+    - **Recovery Classification (Stage 1):** ROC‑AUC = 0.72, Recall = 84% – Effectively flags defaulted accounts that will yield any recovery, minimising missed recovery opportunities.
+    - **Recovery Rate Estimation (Stage 2):** MAE = 0.03, RMSE = 0.05 – Low prediction errors support reliable estimates of post-default recovery outcomes for portfolio-level loss forecasting.
 
-
+- **EAD Model Performance**
+    - R² = 0.35, MAE = 0.08 – Explains 35% of exposure variability with an average prediction error of 8 percentage points, representing solid predictive performance for estimating borrower exposure at the point of default.
+    - Among the three risk components (PD, LGD, EAD), the EAD model demonstrated the strongest out‑of‑sample consistency and stability. This is expected, as EAD is largely driven by observable factors such as remaining loan balance, payment history, and credit utilisation patterns – making it inherently more predictable than loss severity or default probability.
 
 
 ## ⚙️ Tasks
