@@ -53,19 +53,19 @@ redirect_from:
 ---
 ### Credit Risk Analysis and Modelling | United Kingdom | April 2026 – May 2026
 
-- **Objective:** Develop a production‑grade credit risk framework aligned with Basel IRB standards to estimate Probability of Default (PD), Loss Given Default (LGD), and Exposure at Default (EAD) for consumer loan portfolios, and integrate them into an Expected Loss (EL) engine to support capital planning, stress testing, and risk‑based pricing..
+- **Objective:** Develop a production‑grade credit risk framework aligned with Basel IRB standards to estimate Probability of Default (PD), Loss Given Default (LGD), and Exposure at Default (EAD) for consumer loan portfolios, and integrate them into an Expected Loss (EL) engine to support capital planning, stress testing, and risk‑based pricing.
 - **Methodology:** 
-  • **Data Processing:** Processed ~250k Lending Club loans (2017–2018) with 152 raw features; reduced to 34 predictive variables using VIF, Condition Index, WoE, and IV analysis. 
-  • **PD Model:** Class‑weighted logistic regression optimised with Youden’s index for threshold selection. 
-  • **LGD Model:** Two‑stage framework where Stage 1 (logistic regression) predicts recovery likelihood and Stage 2 (OLS) estimates recovery magnitude conditional on recovery.
-  • **EAD Model:** Linear regression based on Credit Conversion Factor (CCF) approach.
-  • **Validation:** Independently validated on a holdout set of 50k loans.
+  - **Data Processing:** Processed ~250k Lending Club loans (2017–2018) with 152 raw features; reduced to 34 predictive variables using VIF, Condition Index, WoE, and IV analysis. 
+  - **PD Model:** Class‑weighted logistic regression optimised with Youden’s index for threshold selection. 
+  - **LGD Model:** Two‑stage framework where Stage 1 (logistic regression) predicts recovery likelihood and Stage 2 (OLS) estimates recovery magnitude conditional on recovery.
+  - **EAD Model:** Linear regression based on Credit Conversion Factor (CCF) approach.
+  - **Validation:** Independently validated on a holdout set of 50k loans.
 - **Result:** 
-  • **PD Model:** ROC‑AUC = 0.77, Gini = 0.53, KS = 0.40, Recall = 72% – demonstrates strong default detection and ranking ability.
-  • **LGD Model (Stage 1 – Recovery Classification):** ROC‑AUC = 0.72, Recall = 84% – effectively identifies recoverable default accounts.
-  • **LGD Model (Stage 2 – Recovery Magnitude):** MAE = 0.03, RMSE = 0.05, R² = 0.02 – low prediction errors, though low R² reflects inherent noise in recovery outcomes.
-  • **EAD Model:** R² = 0.35, MAE = 0.08, RMSE = 0.115 – solid predictive power for exposure at default, strong for retail portfolios.
-  • **Holdout Validation:** Performance decay minimal across all components (ROC‑AUC Δ = 0.0039, MAE Δ ≤ 0.012) – confirms robust generalisation and no over-fitting.
+  - **PD Model:** ROC‑AUC = 0.77, Gini = 0.53, KS = 0.40, Recall = 72% – demonstrates strong default detection and ranking ability.
+  - **LGD Model (Stage 1 – Recovery Classification):** ROC‑AUC = 0.72, Recall = 84% – effectively identifies recoverable default accounts.
+  - **LGD Model (Stage 2 – Recovery Magnitude):** MAE = 0.03, RMSE = 0.05, R² = 0.02 – low prediction errors, though low R² reflects inherent noise in recovery outcomes.
+  - **EAD Model:** R² = 0.35, MAE = 0.08, RMSE = 0.115 – solid predictive power for exposure at default, strong for retail portfolios.
+  - **Holdout Validation:** Performance decay minimal across all components (ROC‑AUC Δ = 0.0039, MAE Δ ≤ 0.012) – confirms robust generalisation and no over-fitting.
 
 ### BI Analytics Project – Olist’s E-Commerce Platform (Brazil) | United Kingdom | October 2025 – October 2025
 
