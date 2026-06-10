@@ -1,61 +1,48 @@
 ---
-title: "Portfolio 3: Basel-Aligned Multi-Stage Credit Risk Modeling Framework: Development and Application (White-Box model)"
-excerpt: "A Basel-aligned multi-stage credit risk modeling framework built on ~250,000 Lending Club consumer loans, estimating Probability of Default (PD), Loss Given Default (LGD), and Exposure at Default (EAD) using transparent white-box models. The framework integrates class-weighted logistic regression, a two-stage LGD hurdle model, and Credit Conversion Factor (CCF)-based EAD estimation to generate Expected Loss (EL) forecasts. Independently validated on a 50,000-loan holdout sample, supporting risk-based pricing, stress testing, capital planning, and portfolio credit risk management. <br/><img src='/images/Lending Club EDA.png'>" # Preview image
+title: "Portfolio 1: Airport Activity and Regional Productivity in the United Kingdom: An Empirical Study of Connectivity, Freight Operations, and Economic Growth (1998–2023)"
+excerpt: "This project analyzes the relationship between airport activity and regional economic productivity across the UK’s 12 ITL1 regions (1998–2023) using Panel Vector Autoregression (PVAR) and Granger causality analysis, providing evidence-based insights to guide aviation policy, regional development, and infrastructure investment decisions.<br/><img src='/images/Dissertation (Granger Causality).png'>"
 collection: portfolio
 ---
 
-📎For more details, click [here](https://github.com/Danny-NG-9999/Academic-and-Personal-Projects/tree/main/Economic/Multi-Stage%20Credit%20Risk%20Modeling)
+📎For more details, click [here](https://github.com/Danny-NG-9999/Academic-and-Personal-Projects/tree/main/Dissertation%20Project)
+
 
 ## 🎯 Objective
-Developed a comprehensive, white-box, Basel-compliant multi-stage credit risk modeling framework to estimate Probability of Default (PD), Loss Given Default (LGD), Exposure at Default (EAD), and Expected Loss (EL) using real-world Lending Club data. The project aims to provide transparent, interpretable, and regulator-friendly risk quantification to support credit underwriting, portfolio monitoring, risk-based pricing, and capital planning.
+The project aimed to quantify the dynamic relationship between airport activity and regional economic productivity across the UK’s 12 ITL1 regions from 1998 to 2023. Employing a Panel Vector Autoregression (PVAR) framework alongside Granger causality analysis, the study explored how passenger volumes and freight throughput influence Gross Value Added (GVA) per head — the primary productivity measure for this study.
+
+The overarching goal was to deliver evidence-based insights to inform aviation policy, regional development strategy, and infrastructure investment decisions, clarifying whether airports function primarily as drivers of economic growth or as responders to regional economic performance in the UK context
+
 
 ## ⚙️ Tasks
-- **Data Preparation & Feature Engineering**
-    - Processed over 250,000 loan records from a raw dataset of 152 variables, addressing missing values, outliers, and inconsistent entries through systematic and robust data cleaning to establish a stable and audit‑ready modeling baseline
-    - Engineered and selected 34 high‑predictive features using a rigorous multi‑step process:
-        - **Multicollinearity assessment:** Applied Variance Inflation Factor (VIF) and Condition Index (CI) to detect and remove redundant variables, ensuring model stability and interpretability.
-        - **Predictive power assessment:** Used Weight of Evidence (WoE) transformation and Information Value (IV) to quantify variable predictive strength and retain features with meaningful discriminatory power relatives to default and recovery outcomes.
-    - This approach ensured a parsimonious, interpretable feature set that balances predictive performance with model transparency, while minimizing data leakage, reducing overfitting risk, and aligning with best practices for regulatory credit risk modeling and scorecard development.
-
-- **Probability of Default (PD) Modeling**
-    - **Handling class imbalance:** Developed a class-weighted Logistic Regression scorecard to address the inherently low default rate within consumer lending portfolios. This approach preserves the natural class distribution while improving the model's ability to identify high-risk borrowers without relying on synthetic resampling techniques.
-    - **Risk-Based Threshold Optimization:** Optimized the classification threshold using Youden's Index, balancing sensitivity and specificity while intentionally prioritizing default detection (72% Recall). This reflects a practical credit-risk strategy where failing to identify a future defaulter is significantly more costly than generating additional false-positive alerts.
-    - **Scorecard Development & Interpretability:** Leveraged a transparent white-box modeling framework to produce interpretable borrower risk scores, enabling clear explanation of lending decisions and alignment with regulatory expectations under Basel IRB principles.
-    - **Comprehensive Model Validation:** Evaluated discriminatory power, ranking performance, classification effectiveness, and probability calibration using a robust suite of metrics including ROC-AUC (0.77), Gini (0.53) and KS Statistic (0.40). This ensured the model not only differentiates effectively between good and bad borrowers but also produces reliable default probability estimates suitable for downstream LGD, EAD, and Expected Loss calculations.
-
-- **Loss Given Default (LGD) Modeling**
-    - Developed a two-stage LGD framework to reflect the real-world recovery process following borrower default. Rather than treating all recovery outcomes identically, the model separates the decision of whether any recovery occurs from the estimation of how much is ultimately recovered.
-        - **Stage 1 – Recovery Classification:** A class-weighted Logistic Regression model predicts whether a defaulted loan will generate any recovery proceeds, distinguishing recoverable accounts from complete write-offs.
-        - **Stage 2 – Recovery Rate Estimation:** For loans predicted to have recoveries, an Ordinary Least Squares (OLS) regression model estimates the magnitude of the recovery rate.
-    - **Business Value:** Recovery outcomes are typically characterized by a large proportion of zero recoveries (no recovery) alongside a smaller number of positive recoveries. By modeling these processes separately, the framework better captures the underlying recovery dynamics, improves predictive stability, and provides more transparent estimates for loss forecasting, capital provisioning, and portfolio risk management.
-
-- **Exposure at Default (EAD) Modeling**
-    - Developed a Credit Conversion Factor (CCF) based Linear Regression model to estimate borrower exposure at the point of default. Leveraged loan balance, repayment behaviour, and credit utilization characteristics to model expected exposure levels, supporting Basel-compliant EAD estimation and portfolio-level Expected Loss calculations.
-
-- **Model Validation**
-    - Performed independent out‑of‑sample validation using a 50,000‑loan holdout dataset that was completely excluded from model development (feature selection, training, and tuning).
-    - Assessed the stability and generalization of all three risk components (PD, LGD, EAD) by comparing key performance metrics between the test set and the holdout set.
+- Data Collection & Preparation: Assembled a balanced panel dataset (1998–2023, 312 observations) integrating ONS Regional Accounts (GVA per head, population density) and CAA airport data (passenger volumes, freight, ATMs) for 12 ITL1 regions, focusing on top three airports per region. Applied logarithmic transformations and Im-Pesaran-Shin stationarity tests.
+- Econometric Analysis: Utilized R Studio to implement Panel Vector Autoregression (PVAR), Dumitrescu-Hurlin Granger causality tests, and Impulse Response Functions (IRFs), with lag selection via AIC and Schwarz criteria, to model dynamic interactions between airport activity and productivity.
+- Policy Formulation: Developed evidence-based recommendations to optimize aviation infrastructure investments based on findings.
 
 ## 💡 Results
-- **PD Model Performance**
-    - ROC‑AUC = 0.77, Gini = 0.53 and KS = 0.40 – Demonstrates strong borrower risk discrimination, significantly above random chance and well within industry acceptance for retail credit scoring.
-    - Recall = 72%** – Captures nearly three‑quarters of actual default events, enabling early identification of high‑risk accounts despite severe class imbalance.
 
-- **LGD Model Performance**
-    - **Recovery Classification (Stage 1):** ROC‑AUC = 0.72, Recall = 84% – Effectively flags defaulted accounts that will yield any recovery, minimising missed recovery opportunities.
-    - **Recovery Rate Estimation (Stage 2):** MAE = 0.03, RMSE = 0.05 – Low prediction errors support reliable estimates of post-default recovery outcomes for portfolio-level loss forecasting.
+**1️⃣ Passenger Activity — Productivity Driver**
+- Causality: Passenger volumes Granger-cause regional productivity (Z = 23.143, p < 0.001).
+- Short-Term Impact: Slight negative adjustment (–0.0335), reflecting congestion and transition costs.
+- Medium-Term Impact: Positive productivity gains (+0.0183) emerge after 1–2 years as connectivity benefits materialize.
+- Key Factor: Aircraft movements (ATMs) have a stronger influence than passenger volume alone, highlighting flight frequency and connectivity quality over passengers volume.
 
-- **EAD Model Performance**
-    - R² = 0.35, MAE = 0.08 – Explains 35% of exposure variability with an average prediction error of 8 percentage points, representing solid predictive performance for estimating borrower exposure at the point of default.
-    - Among the three risk components (PD, LGD, EAD), the EAD model demonstrated the strongest out‑of‑sample consistency and stability. This is expected, as EAD is largely driven by observable factors such as remaining loan balance, payment history, and credit utilisation patterns – making it inherently more predictable than loss severity or default probability.
+**2️⃣ Freight Activity — Productivity Responder**
+- Causality: Productivity drives freight growth (Z = 3.382, p < 0.01); freight does not Granger-cause productivity.
+- Reflects the UK’s service-based economy, where air cargo expands in response to economic activity rather than stimulating it.
+- Freight growth typically lags productivity increases by ~2 years.
 
-- **Model Robustness & Validation**
-    - Independent validation on a 50,000-loan holdout dataset showed minimal performance deterioration across all risk parameters:
-        - PD ROC-AUC → Δ = 0.0039
-        - LGD MAE → Δ = 0.0119
-        - EAD MAE → Δ = 0.0020
-- Results indicate strong model stability, limited overfitting, and robust out‑of‑sample generalisation – critical for regulatory acceptance and production deployment.
+| Relationship             | Causality  |
+| ------------------------ | -----------|
+| Passenger → Productivity | ✅ Yes     |
+| Productivity → Passenger | ❌ No      |
+| Freight → Productivity   | ❌ No      |
+| Productivity → Freight   | ✅ Yes     |
 
-- **Business & Risk Management Impact**
-    - Developed a fully interpretable Basel IRB-aligned white-box framework that decomposes credit risk into PD, LGD, and EAD components rather than relying on a single black-box prediction.
-    - Demonstrated how regulatory credit risk concepts can be operationalised into a practical decision-support framework for retail lending portfolios.
+**3️⃣ Strategic Implications**
+- Invest in network reliability and route frequency, not just airport capacity.
+- Treat airports as connectivity enablers, not standalone growth engines.
+- Align freight infrastructure with productive regions rather than using it to initiate growth.
+- For major hubs (e.g., LHR, MAN, EDI): focus on operational efficiency and sustainability.
+- For emerging regions: prioritize route diversification to enhance regional inclusion.
+
+Overall, airports in the UK act as catalysts for regional productivity through enhanced connectivity — but only when integrated with strong regional economic structures. Their economic value is contingent on operational quality, network diversity, and alignment with regional strengths, rather than sheer volume growth.
