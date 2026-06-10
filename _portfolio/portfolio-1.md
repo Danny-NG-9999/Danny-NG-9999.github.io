@@ -49,6 +49,22 @@ Developed a comprehensive, white-box, Basel-compliant multi-stage credit risk mo
     - R² = 0.35, MAE = 0.08 – Explains 35% of exposure variability with an average prediction error of 8 percentage points, representing solid predictive performance for estimating borrower exposure at the point of default.
     - Among the three risk components (PD, LGD, EAD), the EAD model demonstrated the strongest out‑of‑sample consistency and stability. This is expected, as EAD is largely driven by observable factors such as remaining loan balance, payment history, and credit utilisation patterns – making it inherently more predictable than loss severity or default probability.
 
+- **Model Robustness & Validation**
+Independent holdout validation (50,000 loans) showed minimal performance decay across all components:
+
+PD ROC‑AUC Δ = 0.0039
+
+LGD MAE Δ = 0.0119
+
+EAD MAE Δ = 0.0020
+
+These narrow deltas confirm strong model stability, limited overfitting, and robust out‑of‑sample generalisation – critical for regulatory acceptance and production deployment.
+
+Independent validation on a 50,000-loan holdout dataset showed minimal performance deterioration across all risk parameters:
+PD ROC-AUC Δ = 0.0039
+LGD MAE Δ = 0.0119
+EAD MAE Δ = 0.0020
+Results indicate strong generalisation capability, limited evidence of overfitting, and consistent performance on previously unseen loan portfolios.
 
 ## ⚙️ Tasks
 - **Data Preparation:** Cleaned and processed ~250k Lending Club loans (2017–2018) with 152 raw features; reduced to 34 predictive variables via VIF, Condition Index, WoE, and IV analysis.
