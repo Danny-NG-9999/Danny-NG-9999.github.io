@@ -13,28 +13,31 @@ Developed a comprehensive, white-box, Basel-compliant multi-stage credit risk mo
 - **Data Preparation & Feature Engineering**
     - Processed over 250,000 loan records from a raw dataset of 152 variables, addressing missing values, outliers, and inconsistent entries through systematic and robust data cleaning to establish a stable and audit‑ready modeling baseline
     - Engineered and selected 34 high‑predictive features using a rigorous multi‑step process:
-        - Multicollinearity assessment: Applied Variance Inflation Factor (VIF) and Condition Index (CI) to detect and remove redundant variables, ensuring model stability and interpretability.
-        - Predictive power assessment: Used Weight of Evidence (WoE) transformation and Information Value (IV) to quantify variable predictive strength and retain features with meaningful discriminatory power relatives to default and recovery outcomes.
+        - **Multicollinearity assessment:** Applied Variance Inflation Factor (VIF) and Condition Index (CI) to detect and remove redundant variables, ensuring model stability and interpretability.
+        - **Predictive power assessment:** Used Weight of Evidence (WoE) transformation and Information Value (IV) to quantify variable predictive strength and retain features with meaningful discriminatory power relatives to default and recovery outcomes.
     - This approach ensured a parsimonious, interpretable feature set that balances predictive performance with model transparency, while minimizing data leakage, reducing overfitting risk, and aligning with best practices for regulatory credit risk modeling and scorecard development.
 
 - **Probability of Default (PD) Modeling**
-    - Developed a class-weighted Logistic Regression scorecard model.
-    - Applied Youden's Index for threshold optimisation.
-    - Evaluated using ROC-AUC, Gini, KS Statistic, Recall, Precision and CAP curve
+    - **Handling class imbalance:** Developed a class-weighted Logistic Regression scorecard to address the inherently low default rate within consumer lending portfolios. This approach preserves the natural class distribution while improving the model's ability to identify high-risk borrowers without relying on synthetic resampling techniques.
+    - **Risk-Based Threshold Optimization:** Optimized the classification threshold using Youden's Index, balancing sensitivity and specificity while intentionally prioritizing default detection (72% Recall). This reflects a practical credit-risk strategy where failing to identify a future defaulter is significantly more costly than generating additional false-positive alerts.
+    - **Scorecard Development & Interpretability:** Leveraged a transparent white-box modeling framework to produce interpretable borrower risk scores, enabling clear explanation of lending decisions and alignment with regulatory expectations under Basel IRB principles.
+    - **Comprehensive Model Validation:** Evaluated discriminatory power, ranking performance, classification effectiveness, and probability calibration using a robust suite of metrics including ROC-AUC (0.77), Gini (0.53) and KS Statistic (0.40). This ensured the model not only differentiates effectively between good and bad borrowers but also produces reliable default probability estimates suitable for downstream LGD, EAD, and Expected Loss calculations.
 
-- Handling class imbalance: Built a class‑weighted Logistic Regression scorecard that directly accounts for the rare nature of defaults, avoiding artificial resampling and preserving the natural default rate
-- Threshold optimisation: Applied Youden’s Index to select an optimal classification threshold, deliberately prioritising recall (72%) over precision to minimise the costly error of missing actual defaults – a strategic choice for credit risk.
-- Comprehensive evaluation: Assessed model performance using a full suite of metrics – ROC‑AUC and Gini for ranking ability, KS for separation power, recall and precision for classification trade‑offs, and Brier score for probability calibration – ensuring the model is both discriminative and well‑calibrated.
+- **Loss Given Default (LGD) Modeling**
+    - Developed a two-stage LGD framework to reflect the real-world recovery process following borrower default. Rather than treating all recovery outcomes identically, the model separates the decision of whether any recovery occurs from the estimation of how much is ultimately recovered.
+        - Stage 1 – Recovery Classification: A class-weighted Logistic Regression model predicts whether a defaulted loan will generate any recovery proceeds, distinguishing recoverable accounts from complete write-offs.
+        - Stage 2 – Recovery Rate Estimation: For loans predicted to have recoveries, an Ordinary Least Squares (OLS) regression model estimates the magnitude of the recovery rate.
+- Business Value: Recovery outcomes are typically characterized by a large proportion of zero recoveries (no recovery) alongside a smaller number of positive recoveries. By modeling these processes separately, the framework better captures the underlying recovery dynamics, improves predictive stability, and provides more transparent estimates for loss forecasting, capital provisioning, and portfolio risk management.
+
+Two‑Stage LGD Framework: Developed a model that separates recovery prediction into two distinct questions – will anything be recovered? and how much?
+
+Stage 1 – Recovery Classification (Logistic Regression): Predicts whether a defaulted loan will yield any recovery at all, distinguishing partial recoveries from total write‑offs.
+
+Stage 2 – Recovery Rate Estimation (OLS Regression): For loans expected to recover something, estimates the exact recovery percentage.
+
+Business Value: Recovery data typically contains many zeros (no recovery) and fewer positive values. By modelling the two processes separately, the framework captures this reality more accurately, leading to better stability, clearer interpretation, and more reliable inputs for loss forecasting and capital provisioning.
 
 
-
-    Built a class‑weighted Logistic Regression scorecard model to directly handle severe class imbalance (rare defaults).
-
-Optimised the classification threshold using Youden’s Index, balancing sensitivity and specificity with a deliberate preference for high recall (catching defaults).
-
-Evaluated discrimination and calibration via ROC‑AUC, Gini coefficient, KS statistic, recall, precision, and Brier score – ensuring both ranking ability and probability accuracy.
-
-Loss Given Default (LGD) Modeling
 Implemented a two-stage hurdle framework:
 Stage 1: Logistic Regression predicting recovery occurrence.
 Stage 2: Linear Regression (OLS) estimating recovery magnitude.
