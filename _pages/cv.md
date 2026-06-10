@@ -35,7 +35,7 @@ redirect_from:
 - **Reporting, Data Analysis & Inventory Control:** Maintained accurate inventory records through end-of-day stock counts, date rotation, and labelling compliance; reconciled daily usage against sales data to support effective stock management, cost control, and informed ordering decisions. Produced end-of-shift reports covering sales, customer volumes, SPH, discounts, and operational issues, providing reliable data to support management decision-making and forecasting.
 
 
-### Transaction Advisory Analyst | Grant Thornton, Vietnam | November 2022 – July 2024 
+### Transaction Advisory Analyst | Grant Thornton, Vietnam | November 2022 – August 2024 
 
 - **Financial Due Diligence:** Performed detailed reviews of trial balances, general ledgers, and supporting financial statements across 8 M&A transactions (£500k–£8m), identifying and adjusting non-recurring items, misclassified expenses, unusual/suspicious and related-party transactions to establish normalised earnings and support accurate valuation models. Notably uncovered £420k EBITDA adjustment for an FMCG client, which strengthened the buyer’s position in negotiations and drove a more favourable purchase price.
 - **Risk and Contract Analysis:** Reviewed customer, supplier, loan, and lease agreements to identify risks such as covenant breaches, termination clauses, contingent liabilities, and FX exposure. Uncovered approximately £500k in unrecorded liabilities (including a £180k take-or-pay penalty, £250k lease termination risk, and £65k restoration obligation) as well as a $1m contingent liability from a cloud services auto-renewal clause. These findings enabled SPA protections and contributed to a 5% reduction in enterprise value. 
@@ -75,7 +75,7 @@ redirect_from:
     - Identified 55% revenue concentration in three product categories and a 93.6% one-time buyer rate, recommending loyalty programmes and category diversification to increase customer lifetime value by 10–15%.
     - Uncovered critical operational bottlenecks, including 2.8-day seller-to-carrier delays and regional delivery disparities; proposed a dual logistics strategy — centralized fulfilment hubs for high-volume regions (e.g. São Paulo) and decentralized partnerships for low-volume areas along with ML-driven predictive models to reduce fulfilment variance.
 
-### Analytical Research Project – MSc Dissertation, University of Exeter | United Kingdom | July 2025 – September 2025
+### Analytical Research Project – MSc Dissertation, University of Exeter | United Kingdom | June 2025 – September 2025
 
 - **Objective:** Investigated the dynamic relationship between airport activity (passenger volumes and freight throughput) and regional economic productivity (GVA per head) across 12 UK ITL1 regions, testing for bidirectional causality to provide evidence-based insights informing the UK’s Levelling Up agenda, aviation policy, and regional development strategies.
 - **Methodology:** Employed Panel Vector Autoregression (PVAR) and Granger causality tests on a balanced panel dataset (1998–2023, 312 observations) using R Studio, integrating UK Civil Aviation Authority (CAA) airport data with Office for National Statistics (ONS) regional GVA metrics; analysed impacts while controlling for population density, applying stationarity tests (Im-Pesaran-Shin), logarithmic transformations, and lag selection (AIC/SC) for robust econometric modelling..
