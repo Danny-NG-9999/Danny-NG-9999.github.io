@@ -51,17 +51,23 @@ redirect_from:
 
 ## DATA ANALYTICS & RESEARCH PROJECTS
 ---
-### Credit Risk Analysis and Modelling
+### Credit Risk Analysis and Modelling | United Kingdom | April 2026 – May 2026
 
-- **Objective:** Built an end-to-end credit risk modelling framework for a UK private bank to predict Probability of Default (PD) and quantify portfolio risk via LGD, EAD, and Expected Loss (EL) under adverse macroeconomic conditions. The project aims to support risk-based pricing, capital allocation, and regulatory-aligned decision-making under Basel II/III principles.
-- **Methodology:** Processed ~400K loan records (23 variables) through a robust modelling pipeline, including data cleaning, WoE/IV-based feature engineering, and train/test/holdout validation to prevent data leakage. Developed an interpretable Logistic Regression scorecard and benchmarked it against ensemble methods. Addressed class imbalance using ADASYN and SMOTE variants, and optimised decision thresholds using ROC analysis and Youden’s Index. Evaluated model performance using ROC-AUC, Gini coefficient, Kolmogorov–Smirnov (KS) statistic, CAP curve, and confusion matrix metrics, with a focus on maximising recall to minimise credit losses. Implemented LGD, EAD, and EL calculations to enable monetary risk quantification.
+- **Objective:** Develop a production‑grade credit risk framework aligned with Basel IRB standards to estimate Probability of Default (PD), Loss Given Default (LGD), and Exposure at Default (EAD) for consumer loan portfolios, and integrate them into an Expected Loss (EL) engine to support capital planning, stress testing, and risk‑based pricing..
+- **Methodology:** 
+  • **Data Processing:** Processed ~250k Lending Club loans (2017–2018) with 152 raw features; reduced to 34 predictive variables using VIF, Condition Index, WoE, and IV analysis. 
+  • **PD Model:** Class‑weighted logistic regression optimised with Youden’s index for threshold selection. 
+  • **LGD Model:** Two‑stage framework where Stage 1 (logistic regression) predicts recovery likelihood and Stage 2 (OLS) estimates recovery magnitude conditional on recovery.
+  • **EAD Model:** Linear regression based on Credit Conversion Factor (CCF) approach.
+  • **Validation:** Independently validated on a holdout set of 50k loans.
 - **Result:** 
-  - Model performance: Logistic Regression achieved ROC-AUC = 0.9524, Gini = 0.9048, and KS = 0.7703, with 92.73% recall, effectively capturing the majority of defaulters.
-  - Risk drivers: Loan-to-value, interest rate and regularity of income inflows (IV > 0.5) were identified as the primary predictors, outperforming traditional variables such as income level and employment length.
-  - Business impact: Reduced missed defaults to 554 out of 7,617, significantly limiting loss exposure. CAP analysis showed that ~90% of defaulters were captured within the top 20% of the highest-risk segment, enabling more targeted and efficient underwriting.
-  - Financial integration: The Expected Loss (EL) framework translated model outputs into monetary terms (e.g., rejecting a small business loan with EL = £39.7k versus approving a home improvement loan with EL = £42), supporting automated credit decision-making and portfolio risk optimisation.
+  • **PD Model:** ROC‑AUC = 0.77, Gini = 0.53, KS = 0.40, Recall = 72% – demonstrates strong default detection and ranking ability.
+  • **LGD Model (Stage 1 – Recovery Classification):** ROC‑AUC = 0.72, Recall = 84% – effectively identifies recoverable default accounts.
+  • **LGD Model (Stage 2 – Recovery Magnitude):** MAE = 0.03, RMSE = 0.05, R² = 0.02 – low prediction errors, though low R² reflects inherent noise in recovery outcomes.
+  • **EAD Model:** R² = 0.35, MAE = 0.08, RMSE = 0.115 – solid predictive power for exposure at default, strong for retail portfolios.
+  • **Holdout Validation:** Performance decay minimal across all components (ROC‑AUC Δ = 0.0039, MAE Δ ≤ 0.012) – confirms robust generalisation and no over-fitting.
 
-### BI Analytics Project – Olist’s E-Commerce Platform (Brazil) | United Kingdom | October 2025 - October 2025
+### BI Analytics Project – Olist’s E-Commerce Platform (Brazil) | United Kingdom | October 2025 – October 2025
 
 - **Objective:** Conducted a comprehensive Business Intelligence analysis of Olist’s e-commerce dataset (100,000+ orders, 2016–2018) to deliver actionable insights for improving sales, customer retention, and marketplace competitiveness.
 - **Methodology & Scope:** Utilized Power BI, Python, and MySQL to analyse 12 relational tables and develop interactive dashboards for insights across operational performance, logistics, customer reviews, and lead conversion.
