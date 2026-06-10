@@ -50,34 +50,12 @@ Developed a comprehensive, white-box, Basel-compliant multi-stage credit risk mo
     - Among the three risk components (PD, LGD, EAD), the EAD model demonstrated the strongest out‑of‑sample consistency and stability. This is expected, as EAD is largely driven by observable factors such as remaining loan balance, payment history, and credit utilisation patterns – making it inherently more predictable than loss severity or default probability.
 
 - **Model Robustness & Validation**
-Independent holdout validation (50,000 loans) showed minimal performance decay across all components:
+    - Independent validation on a 50,000-loan holdout dataset showed minimal performance deterioration across all risk parameters:
+        - PD ROC-AUC → Δ = 0.0039
+        - LGD MAE → Δ = 0.0119
+        - EAD MAE → Δ = 0.0020
+- Results indicate strong model stability, limited overfitting, and robust out‑of‑sample generalisation – critical for regulatory acceptance and production deployment.
 
-PD ROC‑AUC Δ = 0.0039
-
-LGD MAE Δ = 0.0119
-
-EAD MAE Δ = 0.0020
-
-These narrow deltas confirm strong model stability, limited overfitting, and robust out‑of‑sample generalisation – critical for regulatory acceptance and production deployment.
-
-Independent validation on a 50,000-loan holdout dataset showed minimal performance deterioration across all risk parameters:
-PD ROC-AUC Δ = 0.0039
-LGD MAE Δ = 0.0119
-EAD MAE Δ = 0.0020
-Results indicate strong generalisation capability, limited evidence of overfitting, and consistent performance on previously unseen loan portfolios.
-
-## ⚙️ Tasks
-- **Data Preparation:** Cleaned and processed ~250k Lending Club loans (2017–2018) with 152 raw features; reduced to 34 predictive variables via VIF, Condition Index, WoE, and IV analysis.
-- **PD Modelling:** Built a class‑weighted logistic regression model with Youden’s index threshold optimisation to prioritise default detection (recall).
-- **LGD Modelling:** Developed a two‑stage framework – Stage 1 (logistic regression) predicts recovery likelihood; Stage 2 (OLS) estimates recovery magnitude conditional on recovery.
-- **EAD Modelling:** Estimated exposure at default using a linear regression based on Credit Conversion Factor (CCF) approach.
-- **Validation:** Independently validated all models on a 50k‑loan holdout set (same period) to assess generalisation and overfitting.
-- **Risk Integration:** Combined PD × LGD × EAD into an Expected Loss (EL) metric for portfolio‑level loss forecasting.
-
-## 💡 Results
-- **PD Model:** ROC‑AUC = 0.77, Gini = 0.53, KS = 0.40, Recall = 72% – strong default detection and ranking ability for retail portfolios.
-- **LGD Stage 1:** ROC‑AUC = 0.72, Recall = 84% – effectively identifies recoverable default accounts.
-- **LGD Stage 2:** MAE = 0.03, RMSE = 0.05 – low prediction errors, though R² = 0.02 reflects inherent noise in recovery outcomes (legal actions, collection strategies, etc.).
-- **EAD Model:** R² = 0.35, MAE = 0.08 – solid predictive power for exposure, more predictable than LGD.
-- **Holdout Validation:** Minimal performance decay (ROC‑AUC Δ = 0.0039, MAE Δ ≤ 0.012), confirming robust generalisation and no overfitting.
-- **Business Impact:** Framework translates borrower data into monetary loss estimates, enabling automated credit decisions, capital allocation, and stress‑testing – all within a transparent, Basel‑compliant structure.
+- **Business & Risk Management Impact**
+    - Developed a fully interpretable Basel IRB-aligned white-box framework that decomposes credit risk into PD, LGD, and EAD components rather than relying on a single black-box prediction.
+    - Demonstrated how regulatory credit risk concepts can be operationalised into a practical decision-support framework for retail lending portfolios.
