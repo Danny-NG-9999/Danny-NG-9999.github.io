@@ -8,148 +8,147 @@ author_profile: true
 {% include base_path %}
 
 <style>
-  /* Responsive 2-Column Grid Layout */
+  /* Grid Container: Max 3 columns on large screens, responsive on smaller ones */
   .portfolio-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 24px;
-    margin-top: 24px;
+    margin-top: 25px;
   }
 
-  /* Individual Card Styling */
-  .portfolio-card {
-    background: #ffffff;
+  @media (min-width: 992px) {
+    .portfolio-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  /* Card styling: Light container with rounded corners and subtle shadow */
+  .project-card {
+    background-color: #ffffff;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     display: flex;
     flex-direction: column;
-    border: 1px solid rgba(0, 0, 0, 0.06);
   }
 
-  .portfolio-card:hover {
+  .project-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
   }
 
-  /* Image Header Container */
-  .portfolio-card-image {
+  /* Image Thumbnail Container */
+  .project-thumb-container {
     width: 100%;
-    height: 200px;
-    background-color: #f4f5f7;
+    height: 180px;
+    background-color: #f1f3f5;
     overflow: hidden;
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
-  .portfolio-card-image img {
+  .project-thumb-container img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Crisp cropping without distortion */
-    object-position: top center;
+    object-fit: cover;
+    object-position: top;
   }
 
-  /* Card Body Content */
-  .portfolio-card-body {
+  .no-image-placeholder {
+    color: #888888;
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+
+  /* Card Body */
+  .project-card-body {
     padding: 20px;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
   }
 
-  .portfolio-card-title {
-    font-size: 1.2rem;
+  /* Headings & Text: Dark styling for high contrast on light cards */
+  .project-card-title {
+    margin: 0 0 10px 0;
+    font-size: 1.15rem;
     font-weight: 700;
     line-height: 1.3;
-    margin: 0 0 10px 0;
   }
 
-  .portfolio-card-title a {
-    color: #1d2129;
+  .project-card-title a {
+    color: #1a1a1a !important;
     text-decoration: none;
   }
 
-  .portfolio-card-title a:hover {
-    color: #0366d6;
+  .project-card-title a:hover {
+    color: #0056b3 !important;
+    text-decoration: underline;
   }
 
-  .portfolio-card-excerpt {
+  .project-card-excerpt {
+    color: #4a4a4a;
     font-size: 0.9rem;
-    color: #586069;
     line-height: 1.5;
     margin-bottom: 16px;
     flex-grow: 1;
   }
 
-  /* Card Footer Actions */
-  .portfolio-card-footer {
-    display: flex;
-    gap: 12px;
-    align-items: center;
+  /* Card Footer / Links */
+  .project-card-footer {
+    border-top: 1px solid #eeeeee;
     padding-top: 12px;
-    border-top: 1px solid #f0f0f0;
-  }
-
-  .btn-card {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-size: 0.85rem;
+  }
+
+  .project-link {
+    color: #0066cc !important;
     font-weight: 600;
-    padding: 6px 12px;
-    border-radius: 6px;
-    text-decoration: none !important;
-    display: inline-block;
+    text-decoration: none;
   }
 
-  .btn-primary-card {
-    background-color: #0366d6;
-    color: #ffffff !important;
-  }
-
-  .btn-secondary-card {
-    background-color: #f3f4f6;
-    color: #24292e !important;
-  }
-
-  .btn-card:hover {
-    opacity: 0.9;
+  .project-link:hover {
+    text-decoration: underline;
   }
 </style>
 
 <div class="portfolio-grid">
   {% for post in site.portfolio %}
-  <div class="portfolio-card">
-    
-    <!-- Crisp Image Preview Header -->
-    <div class="portfolio-card-image">
-      {% if post.header.teaser %}
-        <img src="{{ post.header.teaser | relative_url }}" alt="{{ post.title }}">
-      {% elsif post.header.image %}
-        <img src="{{ post.header.image | relative_url }}" alt="{{ post.title }}">
-      {% else %}
-        <div style="display:flex; align-items:center; justify-center; height:100%; color:#a0aec0; font-size:0.9rem;">
-          No Preview Available
-        </div>
-      {% endif %}
-    </div>
-
-    <!-- Text & Actions Body -->
-    <div class="portfolio-card-body">
-      <h3 class="portfolio-card-title">
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      </h3>
-
-      <div class="portfolio-card-excerpt">
-        {{ post.excerpt | strip_html | truncatewords: 25 }}
-      </div>
-
-      <div class="portfolio-card-footer">
-        <a href="{{ post.url | relative_url }}" class="btn-card btn-primary-card">Read Details →</a>
-        {% if post.github %}
-          <a href="{{ post.github }}" target="_blank" class="btn-card btn-secondary-card">GitHub ↗</a>
+    <div class="project-card">
+      <!-- Thumbnail Header -->
+      <div class="project-thumb-container">
+        {% if post.header.teaser %}
+          <img src="{{ post.header.teaser | relative_url }}" alt="{{ post.title }}">
+        {% elsif post.header.image %}
+          <img src="{{ post.header.image | relative_url }}" alt="{{ post.title }}">
+        {% else %}
+          <span class="no-image-placeholder">No Preview Image</span>
         {% endif %}
       </div>
-    </div>
 
-  </div>
+      <!-- Card Content -->
+      <div class="project-card-body">
+        <h3 class="project-card-title">
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h3>
+        
+        <p class="project-card-excerpt">
+          {{ post.excerpt | strip_html | truncatewords: 25 }}
+        </p>
+
+        <div class="project-card-footer">
+          <a href="{{ post.url | relative_url }}" class="project-link">View Project →</a>
+          {% if post.github %}
+            <a href="{{ post.github }}" target="_blank" class="project-link">GitHub ↗</a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
   {% endfor %}
 </div>
-
