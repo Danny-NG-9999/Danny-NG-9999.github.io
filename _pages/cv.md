@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-📎 Download a PDF version of this resume [here](/files/Resume_2026.pdf)
+📎 Download a PDF version of this resume [here](/files/Resume_2026 (Daniel Nguyen) - Online.pdf)
 
 
 ## EDUCATION
