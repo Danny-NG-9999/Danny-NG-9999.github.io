@@ -8,73 +8,148 @@ author_profile: true
 {% include base_path %}
 
 <style>
-  .portfolio-table {
+  /* Responsive 2-Column Grid Layout */
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+    margin-top: 24px;
+  }
+
+  /* Individual Card Styling */
+  .portfolio-card {
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+  }
+
+  .portfolio-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+  }
+
+  /* Image Header Container */
+  .portfolio-card-image {
     width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
+    height: 200px;
+    background-color: #f4f5f7;
+    overflow: hidden;
+    position: relative;
   }
-  .portfolio-table th, .portfolio-table td {
-    border: 1px solid #e1e4e8;
-    padding: 12px;
-    vertical-align: top;
+
+  .portfolio-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Crisp cropping without distortion */
+    object-position: top center;
   }
-  .portfolio-table th {
-    background-color: #f6f8fa;
-    text-align: left;
-    font-weight: 600;
+
+  /* Card Body Content */
+  .portfolio-card-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
   }
-  .portfolio-thumb {
-    width: 140px;
-    max-width: 140px;
-    border-radius: 6px;
-    object-fit: cover;
+
+  .portfolio-card-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 0 0 10px 0;
   }
-  .portfolio-title {
-    font-weight: bold;
+
+  .portfolio-card-title a {
+    color: #1d2129;
     text-decoration: none;
-    font-size: 1.05rem;
+  }
+
+  .portfolio-card-title a:hover {
+    color: #0366d6;
+  }
+
+  .portfolio-card-excerpt {
+    font-size: 0.9rem;
+    color: #586069;
+    line-height: 1.5;
+    margin-bottom: 16px;
+    flex-grow: 1;
+  }
+
+  /* Card Footer Actions */
+  .portfolio-card-footer {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding-top: 12px;
+    border-top: 1px solid #f0f0f0;
+  }
+
+  .btn-card {
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-decoration: none !important;
+    display: inline-block;
+  }
+
+  .btn-primary-card {
+    background-color: #0366d6;
+    color: #ffffff !important;
+  }
+
+  .btn-secondary-card {
+    background-color: #f3f4f6;
+    color: #24292e !important;
+  }
+
+  .btn-card:hover {
+    opacity: 0.9;
   }
 </style>
 
-<table class="portfolio-table">
-  <thead>
-    <tr>
-      <th style="width: 20%;">Preview</th>
-      <th style="width: 50%;">Project Title & Overview</th>
-      <th style="width: 30%;">Details & Links</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for post in site.portfolio %}
-    <tr>
-      <!-- Column 1: Image -->
-      <td style="text-align: center;">
-        {% if post.header.teaser %}
-          <img src="{{ post.header.teaser | relative_url }}" class="portfolio-thumb" alt="{{ post.title }}">
-        {% elsif post.header.image %}
-          <img src="{{ post.header.image | relative_url }}" class="portfolio-thumb" alt="{{ post.title }}">
-        {% else %}
-          <span style="color: #888; font-size: 0.85rem;">No Image</span>
-        {% endif %}
-      </td>
+<div class="portfolio-grid">
+  {% for post in site.portfolio %}
+  <div class="portfolio-card">
+    
+    <!-- Crisp Image Preview Header -->
+    <div class="portfolio-card-image">
+      {% if post.header.teaser %}
+        <img src="{{ post.header.teaser | relative_url }}" alt="{{ post.title }}">
+      {% elsif post.header.image %}
+        <img src="{{ post.header.image | relative_url }}" alt="{{ post.title }}">
+      {% else %}
+        <div style="display:flex; align-items:center; justify-center; height:100%; color:#a0aec0; font-size:0.9rem;">
+          No Preview Available
+        </div>
+      {% endif %}
+    </div>
 
-      <!-- Column 2: Title & Summary -->
-      <td>
-        <a href="{{ post.url | relative_url }}" class="portfolio-title">{{ post.title }}</a>
-        <p style="font-size: 0.9rem; margin-top: 8px; color: #444;">
-          {{ post.excerpt | strip_html | truncatewords: 35 }}
-        </p>
-      </td>
+    <!-- Text & Actions Body -->
+    <div class="portfolio-card-body">
+      <h3 class="portfolio-card-title">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </h3>
 
-      <!-- Column 3: Links / Metadata -->
-      <td style="font-size: 0.9rem;">
+      <div class="portfolio-card-excerpt">
+        {{ post.excerpt | strip_html | truncatewords: 25 }}
+      </div>
+
+      <div class="portfolio-card-footer">
+        <a href="{{ post.url | relative_url }}" class="btn-card btn-primary-card">Read Details →</a>
         {% if post.github %}
-          <p><strong>Repository:</strong> <a href="{{ post.github }}" target="_blank">GitHub Repo ↗</a></p>
+          <a href="{{ post.github }}" target="_blank" class="btn-card btn-secondary-card">GitHub ↗</a>
         {% endif %}
-        <p><a href="{{ post.url | relative_url }}">Read Full Project →</a></p>
-      </td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
+      </div>
+    </div>
+
+  </div>
+  {% endfor %}
+</div>
 
