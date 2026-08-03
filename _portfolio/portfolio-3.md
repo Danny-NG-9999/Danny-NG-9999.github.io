@@ -8,26 +8,54 @@ collection: portfolio
 
 
 ## 🎯 Objective
-The primary objective of this project was to conduct a comprehensive end-to-end Business Intelligence (BI) analysis of Olist, a leading Brazilian e-commerce marketplace. Utilizing Power BI, Python, and MySQL, the project transformed raw transactional data into actionable insights to evaluate and enhance the platform’s operational performance, logistics efficiency, customer experience, and seller acquisition strategy.
 
-The ultimate goal was to provide data-driven recommendations that support sustainable growth, improve customer retention, and strengthen marketplace competitiveness through analytical rigor and strategic insight.
+Developed an end-to-end Business Intelligence solution for DataCo Global that transformed fragmented sales, logistics, customer, and web traffic data into a unified enterprise reporting platform. The project combined data engineering, relational database design, and interactive analytics to provide executives with a single source of truth for monitoring operational performance, improving logistics efficiency, optimising pricing strategies, and supporting evidence-based business decision-making. :contentReference[oaicite:0]{index=0}
 
-Specifically, the analysis aimed to:
-- Assess marketplace performance by analyzing sales patterns, revenue concentration, and customer purchasing behavior.
-- Identify logistical inefficiencies across the order fulfillment and delivery pipeline.
-- Uncover customer sentiment drivers through review and feedback data to pinpoint sources of satisfaction and dissatisfaction.
-- Assess lead conversion and marketing channel performance to optimize seller acquisition.
+---
 
 ## ⚙️ Tasks
-- **Data Extraction & Cleaning:** Processed and cleaned a dataset of 96,100 unique customers, 3,100 active sellers, and ~99,500 orders using MySQL and Python, ensuring data integrity across 12 relational tables (orders, payments, reviews, geolocation).
-- **Exploratory Data Analysis (EDA):** Conducted SQL-based analysis (CTEs, window functions) and Python visualizations (heatmaps, word clouds) to uncover patterns in sales trends, logistics performance, customer behavior, and lead conversion.
-- **Modeling & Visualization:** Developed interactive Power BI dashboards to visualize key performance indicators (KPIs) across four domains: operational performance, logistics, customer reviews, and lead conversion.
-- **Strategic Recommendations:** Formulated evidence-based strategies to address identified inefficiencies, leveraging machine learning, process optimization, and targeted marketing initiatives.
+
+### **Data Engineering & ETL**
+
+- Designed and implemented an end-to-end ETL pipeline using **Python (Pandas, NumPy)** to cleanse, standardise, validate, and transform over **180,000 operational records** from multiple business domains.
+- Normalised a denormalised dataset into a **Fact Constellation (Galaxy) Schema** comprising **2 Fact Tables** and **8 Dimension Tables**, engineering surrogate keys and establishing scalable relational structures for enterprise reporting.
+- Applied feature engineering, data quality validation, and automated transformation workflows to create reliable, KPI-ready datasets for downstream analytics. :contentReference[oaicite:1]{index=1}
+
+### **Database Design & Data Warehousing**
+
+- Developed a production-style **MySQL** analytical database, defining primary keys, foreign keys, and referential constraints to ensure data integrity and efficient querying.
+- Designed and validated the Entity Relationship Diagram (ERD), creating a governed semantic layer capable of supporting complex cross-functional reporting across sales, logistics, customers, products, and web activity. :contentReference[oaicite:2]{index=2}
+
+### **Business Intelligence & Visualisation**
+
+- Built a five-page executive dashboard in **Power BI**, integrating advanced **DAX measures**, **Power Query**, **Deneb custom visuals**, and geospatial mapping to deliver interactive KPI monitoring and drill-through analysis.
+- Developed self-service dashboards covering commercial performance, pricing, logistics, customer behaviour, web conversion, and operational efficiency, allowing stakeholders to move seamlessly from executive summaries to transaction-level insights. :contentReference[oaicite:3]{index=3}
+
+### **Business Analytics**
+
+- Performed profitability, pricing, logistics, customer, and digital commerce analysis to identify operational bottlenecks, quantify margin erosion, evaluate shipping performance, and uncover opportunities to improve customer conversion and overall business performance.
+- Converted analytical findings into prioritised business recommendations covering pricing optimisation, fulfilment performance, digital commerce, and supply chain efficiency. :contentReference[oaicite:4]{index=4}
+
+---
 
 ## 💡 Results
-- **Operational Performance:** Identified sales peaks in August ($2.18M) and March ($1.77M), with a low average order value ($15.73) and 55% revenue concentration in three categories (Sports & Leisure, Health & Beauty, Cool Stuff). Proposed ML-based demand forecasting, free shipping thresholds, and category diversification to increase customer lifetime value by 10–15%. Highlighted a 93.6% one-time buyer rate, recommending loyalty programs to boost retention.
-- **Logistics Performance:** Uncovered a 2.8-day seller-to-carrier handoff delay and regional disparities, with Southeast states dominating revenue. Suggested a dual logistics model (SP/RJ fulfillment hub, decentralized partnerships) and a Predictive Delivery Promise Engine to reduce fulfillment variability by 10%.
-- **Customer Reviews:** Found negative reviews driven by delivery delays and product mismatches in high-risk categories (e.g., Furniture, Electronics). Recommended packaging compliance, seasonal capacity planning, and a 3-star recovery program to enhance satisfaction.
-- **Lead Conversion:** Noted 62% of closed leads from high-intent channels (Paid Search, Organic Search, Direct Traffic) and 69.7% reseller dominance. Proposed scaling SEO, a tiered referral program, and a Manufacturer Enablement Program to diversify the seller ecosystem and reduce acquisition costs.
 
-In summary, the analysis revealed Olist’s strengths in seller acquisition and sales volume but highlighted logistical bottlenecks and retention challenges. Strategic recommendations, including ML-driven logistics, loyalty initiatives, and ecosystem diversification, are projected to drive a 10–15% increase in customer lifetime value and enhance market penetration in underdeveloped regions.
+### **Supply Chain & Operational Performance**
+
+- Identified that **54.8% of all orders were delivered late**, revealing systemic fulfilment inefficiencies rather than demand-related capacity constraints.
+- Demonstrated that delivery reliability directly influences profitability, highlighting logistics optimisation as a key opportunity for improving customer satisfaction and financial performance. :contentReference[oaicite:5]{index=5}
+
+### **Commercial & Customer Insights**
+
+- Identified significant **margin erosion** caused by excessive discounting, enabling targeted promotional optimisation to improve profitability.
+- Discovered that web sales contributed only **3.04%** of total revenue, while customer conversion increased to **22.94% on Thursdays (≈2.5× higher)**, highlighting opportunities to improve digital marketing and conversion strategies. :contentReference[oaicite:6]{index=6}
+
+### **Decision Support**
+
+- Delivered an interactive executive dashboard containing **15+ dynamic KPIs**, drill-through reporting, forecasting, customer segmentation, and geospatial analysis, providing stakeholders with self-service analytics and a unified enterprise reporting platform.
+- Translated technical analysis into actionable recommendations across logistics, pricing, customer experience, and digital commerce, enabling data-driven operational and strategic decision-making. :contentReference[oaicite:7]{index=7}
+
+### **Business Value**
+
+- Demonstrated how modern data engineering, relational data warehousing, and Business Intelligence can be integrated into a scalable decision-support platform that transforms fragmented operational data into actionable business insights.
+- The solution provides a reusable analytical architecture suitable for enterprise reporting, executive performance monitoring, supply chain optimisation, and commercial analytics across multiple business functions. :contentReference[oaicite:8]{index=8}
