@@ -16,72 +16,67 @@ redirect_from:
 ***
 
 ### MSc Financial Economics | University of Exeter, United Kingdom | September 2024 – September 2025
-*   **Degree classification (GPA):** 2:1 (upper second-class honours) 
-*   **Key Modules:** Applied Econometric I (64%), Applied Econometric II (63%), Experimental and Behavioural Economics (83%), Economics of Corporate Finance (70%) and Topics in Financial Economics (60%).
-
-*   **Key Achievement:**
-    *   **Exeter Award:** Earned the Exeter Award through active participation in workshops, society initiatives like fertilizing soil with coffee grounds, and community projects, showcasing strong teamwork, leadership, and professional skills that enhanced employability and personal growth.
-    *   **Green Consultants Project:** Worked in a 4-person team with a doctoral researcher to align academic modules with the UN SDGs, producing a curriculum-mapping framework that was formally recognised with a £100 award for practical value.
-    *   **VOIZ Climate Simulation Challenge:** Ranked Top 15 out of 164 teams from 39 UK universities in VOIZ Academy’s national climate case challenge, demonstrating analytical thinking, and effective teamwork under real-world conditions.
+- **Degree classification (GPA):** 2:1 (Upper Second-class) 
+- **Key Modules:** Experimental & Behavioural Economics (83%), Economics of Corporate Finance (70%), Applied Econometrics I (64%), Applied Econometrics II (63%), Topics in Financial Economics (60%).
+- **Key Achievement:**
+  - **Academic & Professional Recognition:** Awarded the Exeter Award for demonstrating leadership, teamwork, and professional development through workshops, community engagement, and extracurricular initiatives.
+  - **Consultancy & Competitions:** Designed an SDG curriculum-mapping framework recognised with a £100 HASS Faculty award through the Green Consultants Project, and ranked Top 15 of 164 teams (39 UK universities) in the VOIZ Climate Simulation Challenge, applying analytical thinking and collaborative problem-solving to real-world business challenges.
 
 
 ## PROFESSIONAL EXPERIENCE
 ---
 ### Supervisor | Rosa Thai, United Kingdom | January 2026 - Present
-
-- **Operations and Process Management:** Directed shift-to-shift food and beverage operations, ensuring adherence to presentation standards, portion control, and service time targets. Managed opening and closing procedures using structured checklists to support smooth shift transitions, minimise errors, and maintain audit-ready conditions, while aligning front- and back-of-house teams to deliver consistent performance.
-- **Leadership and Cross-Functional Collaboration:** Led structured shift briefings to align team on roles, targets, and priorities, while mentoring new staff on service standards and portion control. Collaborated across front- and back-of-house during peak periods to resolve bottlenecks, support operations (including drink preparation and order packaging), and maintain efficient service delivery within target time frames.
-- **Customer Service and Quality Assurance:** Maintained high standards by verifying food and beverage quality prior to service and managing customer queries, complaints, and discretionary adjustments professionally, particularly during peak periods. Coordinated bookings and seating arrangements based on client needs and group size, contributing to consistently positive feedback and a high-quality service experience.
-- **Reporting, Data Analysis & Inventory Control:** Maintained accurate inventory records through end-of-day stock counts, date rotation, and labelling compliance; reconciled daily usage against sales data to support effective stock management, cost control, and informed ordering decisions. Produced end-of-shift reports covering sales, customer volumes, SPH, discounts, and operational issues, providing reliable data to support management decision-making and forecasting.
-
+- **Key Responsibilities:**
+  - **Operations Management:** Supervised day-to-day restaurant operations, coordinating front- and back-of-house teams to maintain service quality, operational efficiency, and compliance during high-volume periods.
+  - **Reporting & Inventory Control:** Managed inventory reconciliation, stock rotation, and end-of-shift reporting on sales, labour productivity (SPH), discounts, and operational KPIs to support performance monitoring and forecasting.
+- **Key Achievements:**
+  - **Operational Performance:** Produced accurate operational reports and inventory reconciliations that ensure accurate stock control, supported forecasting, and enabled data-driven management decisions.
+  - **Customer Experience:** Maintained high service standards during peak trading periods, contributing to 95% positive customer feedback through effective team coordination and proactive issue resolution.
 
 ### Transaction Advisory Analyst | Grant Thornton, Vietnam | November 2022 – August 2024 
-
-- **Financial Due Diligence:** Performed detailed reviews of trial balances, general ledgers, and supporting financial statements across 8 M&A transactions (£500k–£8m), identifying and adjusting non-recurring items, misclassified expenses, unusual/suspicious and related-party transactions to establish normalised earnings and support accurate valuation models. Notably uncovered £420k EBITDA adjustment for an FMCG client, which strengthened the buyer’s position in negotiations and drove a more favourable purchase price.
-- **Risk and Contract Analysis:** Reviewed customer, supplier, loan, and lease agreements to identify risks such as covenant breaches, termination clauses, contingent liabilities, and FX exposure. Uncovered approximately £500k in unrecorded liabilities (including a £180k take-or-pay penalty, £250k lease termination risk, and £65k restoration obligation) as well as a $1m contingent liability from a cloud services auto-renewal clause. These findings enabled SPA protections and contributed to a 5% reduction in enterprise value. 
-- **Revenue, Margin & Concentration Analysis:** Evaluated revenue sustainability, customer concentration, and margin quality through revenue breakdowns, benchmarking, contract mapping and related-party transaction reviews. Identified 15% revenue dependency on a near-term expiring contract and inflated related-party margins (+20%), supporting pricing adjustments and post-deal risk mitigation strategies.
-- **Valuation, Reporting and Stakeholder Management:** Supported DCF and comparable company valuation models by preparing operational and capital schedules, and synthesised complex financial and risk findings into client-ready reports and dashboards. Managed VDR and Q&A workflows to ensure timely issue resolution, and contributed sector analysis (renewable energy, regulatory environment) to the Doing Business in Vietnam report.
+- **Key Responsibilities:**
+  - **Financial Due Diligence:** Performed financial, commercial, and contractual due diligence across £50k–£8m M&A transactions, analysing financial statements, revenue quality, customer concentration, contracts, and related-party transactions.
+  - **Transaction Support:** Prepared financial schedules, supported DCF and comparable company valuations, managed virtual data rooms (VDR), and contributed to sector and market analysis.
+- **Key Achievements:**
+  - **Risk Identification:** Identified £420k EBITDA adjustment in an FMCG deal by uncovering non-recurring items, misclassified expenses, and suspicious transactions, strengthening buyer’s negotiating position and securing a better purchase price.
+  - **Commercial Insight:** Identified 15% customer concentration risk and 20% inflated related-party margins, enabling pricing adjustments, enhanced buyer negotiations, and post-acquisition risk mitigation.
 
 ### Technology Consultant | KPMG, Vietnam | April 2021 – June 2022
+- **Key Responsibilities:**
+  - **IT Audit & Data Assurance:** Performed IT control testing, SQL-based data integrity analysis, and financial reconciliations to support statutory audits and the reliability of system-generated financial data.
+  - **Governance & Compliance:** Assessed IT control environments and supported delivery of a £3.4m data governance programme, ensuring compliance with SOX, ISO 27001, and GDPR requirements. 
+- **Key Achievements:**
+  - **Audit Quality:** Delivered reliable audit evidence and strengthened confidence in system-generated financial reporting, improving audit efficiency across multiple engagements.
+  - **Project Delivery:** Contributed to the successful delivery of a £3.4m transformation programme, developing standardised documentation and coordinating stakeholders to improve project governance and knowledge sharing.
 
-- **Risk Testing:** Conducted Tests of Design (ToD) and Tests of Controls (ToC) on IT systems covering access management, change management, and backup processes across multiple engagements. Identified control gaps and recommended remediation, providing reliable evidence of IT-dependent controls that allowed external financial auditors to place reliance on system-generated data and streamline audit procedures.
-- **Data Integrity & Documentation:** Performed data integrity testing on key financial applications, including three-way match reconciliations using SQL and Excel, to validate the reliability of financial data and support timely completion of statutory audits. Updated and organised process documentation from prior engagements, creating a structured reference library in accordance with department’s policy that improved knowledge sharing, staff onboarding, and departmental training.
-- **Compliance and Control Testing:** Assessed privileged access rights and application security configurations during system reviews to ensure SOX compliance. Identified and facilitated the remediation of five high-priority access vulnerabilities, strengthening clients’ compliance posture and enhancing the overall control environment.
-- **Project Management:** Contributed to a £3.4m data governance transformation programme, supporting KPMG Lighthouse experts and client teams in aligning data strategy with ISO 27001 and GDPR standards. Assisted with stakeholder communications by preparing presentations, Q&A logs, and progress reports, and processed project documentation for KPMG experts, helping ensure milestones were delivered on time, within budget, and in line with regulatory requirements.
-
-## DATA ANALYTICS & RESEARCH PROJECTS
+## ANALYTICS & RESEARCH PROJECTS
 ---
-### Credit Risk Analysis and Modelling | United Kingdom | April 2026 – May 2026
+### End-to-End Business Intelligence & Analytics Dashboard (DataCo Global) | United Kingdom | July 2026
+- **Objective:** Developed an end-to-end Business Intelligence solution that integrated supply chain, sales, and web data into a single, verified source of truth. Designed an executive dashboard analysing 180,000+ records with drill-down capabilities across sales, logistics, customer behaviour, and product profitability—transforming reactive reporting into proactive, data-driven decision-making at the leadership level.
+- **Methodology & Scope:**
+  - **Data Engineering:** Designed a Fact Constellation (Galaxy) schema and automated ETL pipelines using SQL, Python, and Power Query
+  - **Visualisation:** Built a Power BI dashboard with 15+ KPIs, Deneb custom visuals, geospatial mapping, and drill-through analysis.  
+- **Result:** 
+  - **Operational Transparency:** Consolidated fragmented business data into a unified reporting platform, improving visibility across the end-to-end supply chain and identifying a 54.8% shipping delay rate for targeted logistics improvement.
+  - **Business Impact:** Generated actionable insights into discount optimisation, regional performance, product profitability, and delivery efficiency, supporting strategic planning and operational improvement initiatives.
 
+### Credit Risk Analysis and Modelling | United Kingdom | April 2026 – May 2026
 - **Objective:** Develop a production‑grade credit risk framework aligned with Basel IRB standards to estimate Probability of Default (PD), Loss Given Default (LGD), and Exposure at Default (EAD) for consumer loan portfolios, and integrate them into an Expected Loss (EL) engine to support capital planning, stress testing, and risk‑based pricing.
 - **Methodology:** 
-  - **Data Processing:** Processed ~250k Lending Club loans (2017–2018) with 152 raw features; reduced to 34 predictive variables using VIF, Condition Index, WoE, and IV analysis. 
-  - **PD Model:** Class‑weighted logistic regression optimised with Youden’s index for threshold selection. 
-  - **LGD Model:** Two‑stage framework where Stage 1 (logistic regression) predicts recovery likelihood and Stage 2 (OLS) estimates recovery magnitude conditional on recovery.
-  - **EAD Model:** Linear regression based on Credit Conversion Factor (CCF) approach.
-  - **Validation:** Independently validated on a holdout set of 50k loans.
+  - **Data Processing & Feature Engineering:** Processed 250k+ Lending Club loans (2017–2018), reducing 152 raw features to 34 using VIF, Condition Index, WoE, and Information Value (IV) analysis
+  - **Risk Modelling & Validation:** Developed PD (logistic regression), two-stage LGD, and EAD models, with independent validation on a 50k-loan holdout dataset to evaluate predictive performance and generalisation.
 - **Result:** 
-  - **PD Model:** ROC‑AUC = 0.77, Gini = 0.53, KS = 0.40, Recall = 72% – demonstrates strong default detection and ranking ability.
-  - **LGD Model (Stage 1 – Recovery Classification):** ROC‑AUC = 0.72, Recall = 84% – effectively identifies recoverable default accounts.
-  - **LGD Model (Stage 2 – Recovery Magnitude):** MAE = 0.03, RMSE = 0.05, R² = 0.02 – low prediction errors, though low R² reflects inherent noise in recovery outcomes.
-  - **EAD Model:** R² = 0.35, MAE = 0.08, RMSE = 0.115 – solid predictive power for exposure at default, strong for retail portfolios.
-  - **Holdout Validation:** Performance decay minimal across all components (ROC‑AUC Δ = 0.0039, MAE Δ ≤ 0.012) – confirms robust generalisation and no over-fitting.
-
-### BI Analytics Project – Olist’s E-Commerce Platform (Brazil) | United Kingdom | October 2025 – October 2025
-
-- **Objective:** Conducted a comprehensive Business Intelligence analysis of Olist’s e-commerce dataset (100,000+ orders, 2016–2018) to deliver actionable insights for improving sales, customer retention, and marketplace competitiveness.
-- **Methodology & Scope:** Utilized Power BI, Python, and MySQL to analyse 12 relational tables and develop interactive dashboards for insights across operational performance, logistics, customer reviews, and lead conversion.
-- **Results:**
-    - Identified 55% revenue concentration in three product categories and a 93.6% one-time buyer rate, recommending loyalty programmes and category diversification to increase customer lifetime value by 10–15%.
-    - Uncovered critical operational bottlenecks, including 2.8-day seller-to-carrier delays and regional delivery disparities; proposed a dual logistics strategy — centralized fulfilment hubs for high-volume regions (e.g. São Paulo) and decentralized partnerships for low-volume areas along with ML-driven predictive models to reduce fulfilment variance.
+  - **Model Performance:** Achieved ROC-AUC = 0.77 (PD), ROC-AUC = 0.72 (LGD Classification), and R² = 0.35 (EAD), demonstrating robust predictive performance across the credit risk lifecycle.
+  - **Model Robustness:** Minimal performance degradation on unseen data (ROC-AUC Δ = 0.0039, MAE Δ ≤ 0.012) confirmed strong generalisation and suitability for real-world credit risk assessment.
 
 ### Analytical Research Project – MSc Dissertation, University of Exeter | United Kingdom | June 2025 – September 2025
-
 - **Objective:** Investigated the dynamic relationship between airport activity (passenger volumes and freight throughput) and regional economic productivity (GVA per head) across 12 UK ITL1 regions, testing for bidirectional causality to provide evidence-based insights informing the UK’s Levelling Up agenda, aviation policy, and regional development strategies.
-- **Methodology:** Employed Panel Vector Autoregression (PVAR) and Granger causality tests on a balanced panel dataset (1998–2023, 312 observations) using R Studio, integrating UK Civil Aviation Authority (CAA) airport data with Office for National Statistics (ONS) regional GVA metrics; analysed impacts while controlling for population density, applying stationarity tests (Im-Pesaran-Shin), logarithmic transformations, and lag selection (AIC/SC) for robust econometric modelling..
+- **Methodology:**
+  - **Data Integration & Econometric Modelling:** Combined CAA airport statistics with ONS regional GVA data and developed a Panel Vector Autoregression (PVAR) model to analyse the dynamic relationship between passenger activity, freight throughput, aircraft movements, and productivity.
+  - **Statistical Analysis:** Applied panel unit root testing, logarithmic transformations, lag selection (AIC/SC), Granger causality, and Impulse Response Functions (IRF) to assess causal relationships and quantify dynamic effects.
 - **Result:** 
-    - Confirmed passenger activity Granger-causes productivity with short-term adjustment costs and medium-term gains (lag 2: +0.0183, p<0.01), driven by aircraft movements; freight responds to productivity growth (Z=3.382, p<0.01) but does not cause or drive it.
-    - Recommended prioritizing flight frequency, route diversity, and efficiency in hub regions, while enhancing targeted connectivity in emerging regions to boost productivity.
+  - **Research Findings:** Identified a significant causal relationship between passenger traffic and regional productivity (β = +0.0183, p < 0.01), while freight throughput responded to productivity growth rather than acting as its driver (Z = 3.382, p < 0.01).
+  - **Policy Impact:** Produced evidence-based recommendations on airport connectivity, flight frequency, and operational efficiency to support regional productivity, infrastructure investment, and strategic transport planning.
 
 
 ## COMMUNITY SERVICE & EXTRA CURRICULAR ACTIVITIES
