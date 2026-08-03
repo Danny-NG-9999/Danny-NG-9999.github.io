@@ -7,8 +7,74 @@ author_profile: true
 
 {% include base_path %}
 
+<style>
+  .portfolio-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  .portfolio-table th, .portfolio-table td {
+    border: 1px solid #e1e4e8;
+    padding: 12px;
+    vertical-align: top;
+  }
+  .portfolio-table th {
+    background-color: #f6f8fa;
+    text-align: left;
+    font-weight: 600;
+  }
+  .portfolio-thumb {
+    width: 140px;
+    max-width: 140px;
+    border-radius: 6px;
+    object-fit: cover;
+  }
+  .portfolio-title {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.05rem;
+  }
+</style>
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+<table class="portfolio-table">
+  <thead>
+    <tr>
+      <th style="width: 20%;">Preview</th>
+      <th style="width: 50%;">Project Title & Overview</th>
+      <th style="width: 30%;">Details & Links</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for post in site.portfolio %}
+    <tr>
+      <!-- Column 1: Image -->
+      <td style="text-align: center;">
+        {% if post.header.teaser %}
+          <img src="{{ post.header.teaser | relative_url }}" class="portfolio-thumb" alt="{{ post.title }}">
+        {% elsif post.header.image %}
+          <img src="{{ post.header.image | relative_url }}" class="portfolio-thumb" alt="{{ post.title }}">
+        {% else %}
+          <span style="color: #888; font-size: 0.85rem;">No Image</span>
+        {% endif %}
+      </td>
+
+      <!-- Column 2: Title & Summary -->
+      <td>
+        <a href="{{ post.url | relative_url }}" class="portfolio-title">{{ post.title }}</a>
+        <p style="font-size: 0.9rem; margin-top: 8px; color: #444;">
+          {{ post.excerpt | strip_html | truncatewords: 35 }}
+        </p>
+      </td>
+
+      <!-- Column 3: Links / Metadata -->
+      <td style="font-size: 0.9rem;">
+        {% if post.github %}
+          <p><strong>Repository:</strong> <a href="{{ post.github }}" target="_blank">GitHub Repo ↗</a></p>
+        {% endif %}
+        <p><a href="{{ post.url | relative_url }}">Read Full Project →</a></p>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
 
