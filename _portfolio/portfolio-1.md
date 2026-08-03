@@ -1,12 +1,12 @@
 ---
 title: "Portfolio 1: Basel-Aligned Multi-Stage Credit Risk Modeling Framework: Development and Application (White-Box model)"
-excerpt: "A Basel-aligned multi-stage credit risk modeling framework built on ~250,000 Lending Club consumer loans, estimating Probability of Default (PD), Loss Given Default (LGD), and Exposure at Default (EAD) using transparent white-box models. The framework integrates class-weighted logistic regression, a two-stage LGD hurdle model, and Credit Conversion Factor (CCF)-based EAD estimation to generate Expected Loss (EL) forecasts. Independently validated on a 50,000-loan holdout sample, supporting risk-based pricing, stress testing, capital planning, and portfolio credit risk management. <br/><img src='/images/Lending Club EDA.png'>" # Preview image
+excerpt: "Developed a Basel IRB-aligned credit risk framework that integrates PD, two-stage LGD, and CCF-based EAD models to estimate Expected Loss (EL) across more than 250,000 consumer loans. Independently validated on a 50,000-loan holdout dataset, the framework enables more informed lending decisions, portfolio monitoring, stress testing, capital planning, and risk-based pricing. <br/><img src='/images/Lending Club EDA.png'>" # Preview image
 collection: portfolio
 header:
   teaser: "/images/Lending Club EDA.png"
 ---
 
-📎For more details, click [here](https://github.com/Danny-NG-9999/Academic-and-Personal-Projects/tree/main/Economic/Multi-Stage%20Credit%20Risk%20Modeling)
+📎For more details, click [here](https://github.com/Danny-NG-9999/Professional-Projects/tree/main/Modelling/Multi-Stage%20Credit%20Risk%20Modelling)
 
 ## 🎯 Objective
 Developed a comprehensive, white-box, Basel-compliant multi-stage credit risk modeling framework to estimate Probability of Default (PD), Loss Given Default (LGD), Exposure at Default (EAD), and Expected Loss (EL) using real-world Lending Club data. The project aims to provide transparent, interpretable, and regulator-friendly risk quantification to support credit underwriting, portfolio monitoring, risk-based pricing, and capital planning.

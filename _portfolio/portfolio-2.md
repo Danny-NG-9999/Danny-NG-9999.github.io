@@ -2,6 +2,8 @@
 title: "Portfolio 2: Airport Activity and Regional Productivity in the United Kingdom: An Empirical Study of Connectivity, Freight Operations, and Economic Growth (1998–2023)"
 excerpt: "This project analyzes the relationship between airport activity and regional economic productivity across the UK’s 12 ITL1 regions (1998–2023) using Panel Vector Autoregression (PVAR) and Granger causality analysis, providing evidence-based insights to guide aviation policy, regional development, and infrastructure investment decisions.<br/><img src='/images/Dissertation (Granger Causality).png'>"
 collection: portfolio
+header:
+  teaser: "/images/Dissertation (Granger Causality).png"
 ---
 
 📎For more details, click [here](https://github.com/Danny-NG-9999/Academic-and-Personal-Projects/tree/main/Dissertation%20Project)

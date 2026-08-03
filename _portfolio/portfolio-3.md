@@ -1,10 +1,12 @@
 ---
 title: "Portfolio 3: End-to-End Business Intelligence & Analytics Dashboard (DataCo Global)"
-excerpt: "Designed and developed a complete Business Intelligence pipeline using Python, MySQL, and Power BI to transform operational records into a scalable enterprise data warehouse and executive dashboard. Implemented a Fact Constellation (Galaxy) schema, automated ETL workflows, and interactive analytics to uncover operational bottlenecks, optimise pricing and logistics, and support data-driven decision-making across sales, supply chain, and digital commerce. <br/><img src='/images/Power BI (Olist).png'>"
+excerpt: "Designed and developed a complete Business Intelligence pipeline using Python, MySQL, and Power BI to transform operational records into a scalable enterprise data warehouse and executive dashboard. Implemented a Fact Constellation (Galaxy) schema, automated ETL workflows, and interactive analytics to uncover operational bottlenecks, optimise pricing and logistics, and support data-driven decision-making across sales, supply chain, and digital commerce. <br/><img src='/images/1. Overview.png'>"
 collection: portfolio
+header:
+  teaser: "/images/1. Overview.png"
 ---
 
-📎For more details, click [here](https://github.com/Danny-NG-9999/Professional-Projects/tree/main/E-Commerce)
+📎For more details, click [here](https://github.com/Danny-NG-9999/Professional-Projects/tree/main/Data%20Analysis/DataCo%20Global%20(End-to-End))
 
 
 ## 🎯 Objective
