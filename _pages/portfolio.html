@@ -22,34 +22,36 @@ author_profile: true
     }
   }
 
-  /* Compact, short card layout */
+  /* Compact card with darker slate background */
   .project-card {
-    background-color: #f4f5f7;
+    background-color: #2a2d32; /* Darker slate-grey background */
+    border: 1px solid #3a3f47; /* Subtle border for clean structure */
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     display: flex;
     flex-direction: column;
     text-decoration: none !important; /* Makes the entire card clickable */
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
   }
 
   .project-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+    border-color: #60a5fa; /* Soft blue accent on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
   }
 
-  /* Image Container: Preserves exact image aspect ratio without stretching or cropping */
+  /* Image Container: Dark background behind graphics + exact aspect ratio scaling */
   .card-image-wrapper {
     width: 100%;
     height: 180px;
-    background-color: #ffffff; /* Clean white background behind preview graphics */
+    background-color: #1f2226; /* Dark background behind image canvas */
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 10px;
     box-sizing: border-box;
-    border-bottom: 1px solid #e5e7eb;
+    border-bottom: 1px solid #3a3f47;
   }
 
   .card-image-wrapper img {
@@ -57,16 +59,17 @@ author_profile: true
     max-height: 100%;
     width: auto;
     height: auto;
-    object-fit: contain; /* Ensures complete image fits inside without stretching */
+    object-fit: contain; /* Prevents stretching or cropping */
+    border-radius: 4px;
   }
 
   .no-image-placeholder {
-    color: #6b7280;
+    color: #9ca3af;
     font-size: 0.85rem;
     font-weight: 500;
   }
 
-  /* Compact Title-only Content Area */
+  /* Compact Content Area */
   .card-content {
     padding: 14px 16px;
     display: flex;
@@ -75,14 +78,14 @@ author_profile: true
 
   .card-title {
     font-size: 1.05rem;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 1.35;
-    color: #111827 !important; /* Sharp dark text */
+    color: #e2e8f0 !important; /* Soft light-grey text for dark theme */
     margin: 0;
   }
 
   .project-card:hover .card-title {
-    color: #2563eb !important; /* Subtle blue hover effect */
+    color: #60a5fa !important; /* Subtle blue glow on hover */
   }
 </style>
 
