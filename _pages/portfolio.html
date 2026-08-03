@@ -22,36 +22,37 @@ author_profile: true
     }
   }
 
-  /* Compact card with darker grey background for dark theme */
+  /* Semi-transparent dark card layout */
   .project-card {
-    background-color: #2d3748; /* Darker charcoal-grey container */
-    border: 1px solid #3f4a5c; /* Subtle outline for depth */
+    background-color: rgba(255, 255, 255, 0.07); /* Semi-transparent dark overlay */
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.12); /* Subtle glassmorphism border */
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: column;
-    text-decoration: none !important; /* Makes the entire card clickable */
-    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    text-decoration: none !important; /* Makes entire card clickable */
+    transition: transform 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
   }
 
   .project-card:hover {
     transform: translateY(-4px);
-    border-color: #60a5fa; /* Soft accent highlight on hover */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.12); /* Slightly brightens on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
   }
 
-  /* Image Container: Dark background behind graphics, preserves full image aspect ratio */
+  /* Image Container: Preserves aspect ratio with a dark background tint */
   .card-image-wrapper {
     width: 100%;
     height: 180px;
-    background-color: #1a202c; /* Slightly darker grey behind image canvas */
+    background-color: rgba(0, 0, 0, 0.25); /* Dark background behind preview images */
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 10px;
     box-sizing: border-box;
-    border-bottom: 1px solid #3f4a5c;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
 
   .card-image-wrapper img {
@@ -59,17 +60,17 @@ author_profile: true
     max-height: 100%;
     width: auto;
     height: auto;
-    object-fit: contain; /* Keeps full image visible without stretching/cropping */
+    object-fit: contain; /* Prevents image stretching/cropping */
     border-radius: 4px;
   }
 
   .no-image-placeholder {
-    color: #9ca3af;
+    color: rgba(255, 255, 255, 0.5);
     font-size: 0.85rem;
     font-weight: 500;
   }
 
-  /* Compact Content Area with White Text */
+  /* Title-only Content Area with White Text */
   .card-content {
     padding: 14px 16px;
     display: flex;
@@ -80,12 +81,12 @@ author_profile: true
     font-size: 1.05rem;
     font-weight: 600;
     line-height: 1.35;
-    color: #f3f4f6 !important; /* Crisp white text */
+    color: #ffffff !important; /* Pure white text for dark mode */
     margin: 0;
   }
 
   .project-card:hover .card-title {
-    color: #60a5fa !important; /* Soft blue hover color */
+    color: #60a5fa !important; /* Soft accent blue on hover */
   }
 </style>
 
