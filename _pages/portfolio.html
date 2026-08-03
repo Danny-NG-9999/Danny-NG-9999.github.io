@@ -22,37 +22,37 @@ author_profile: true
     }
   }
 
-  /* Semi-transparent dark card layout */
+  /* Compact, semi-transparent card layout */
   .project-card {
-    background-color: rgba(255, 255, 255, 0.07); /* Semi-transparent dark overlay */
-    backdrop-filter: blur(8px);
-    border: 1px solid rgba(255, 255, 255, 0.12); /* Subtle glassmorphism border */
+    /* Muted dark grey with subtle transparency (blends into overall background) */
+    background-color: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(255, 255, 255, 0.12);
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: column;
-    text-decoration: none !important; /* Makes entire card clickable */
+    text-decoration: none !important; /* Entire card clickable */
     transition: transform 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
   }
 
   .project-card:hover {
     transform: translateY(-4px);
-    background-color: rgba(255, 255, 255, 0.12); /* Slightly brightens on hover */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    background-color: rgba(255, 255, 255, 0.12);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
   }
 
-  /* Image Container: Preserves aspect ratio with a dark background tint */
+  /* Image Container: Preserves exact image proportions without background clash */
   .card-image-wrapper {
     width: 100%;
     height: 180px;
-    background-color: rgba(0, 0, 0, 0.25); /* Dark background behind preview images */
+    background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 10px;
     box-sizing: border-box;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   }
 
   .card-image-wrapper img {
@@ -60,17 +60,17 @@ author_profile: true
     max-height: 100%;
     width: auto;
     height: auto;
-    object-fit: contain; /* Prevents image stretching/cropping */
+    object-fit: contain; /* Full dashboard view without cropping */
     border-radius: 4px;
   }
 
   .no-image-placeholder {
-    color: rgba(255, 255, 255, 0.5);
+    color: var(--global-text-color-light, #9ca3af);
     font-size: 0.85rem;
     font-weight: 500;
   }
 
-  /* Title-only Content Area with White Text */
+  /* Compact Content Area with Dynamic Theme Color */
   .card-content {
     padding: 14px 16px;
     display: flex;
@@ -79,9 +79,10 @@ author_profile: true
 
   .card-title {
     font-size: 1.05rem;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 1.35;
-    color: #ffffff !important; /* Pure white text for dark mode */
+    /* Uses site theme variable: White in Dark Mode, Black in Light Mode */
+    color: var(--global-text-color, inherit) !important;
     margin: 0;
   }
 
@@ -105,7 +106,7 @@ author_profile: true
       {% endif %}
     </div>
 
-    <!-- Title Only with White Text -->
+    <!-- Dynamic Title Only -->
     <div class="card-content">
       <h3 class="card-title">{{ post.title }}</h3>
     </div>
