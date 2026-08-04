@@ -35,7 +35,7 @@ redirect_from:
 
 ### Transaction Advisory Analyst | Grant Thornton, Vietnam | November 2022 – August 2024 
 - **Key Responsibilities:**
-  - **Financial Due Diligence:** Performed financial, commercial, and contractual due diligence across £50k–£8m M&A transactions, analysing financial statements, revenue quality, customer concentration, contracts, and related-party transactions.
+  - **Financial Due Diligence:** Performed financial, commercial, and contractual due diligence across £50k–£5m M&A transactions, analysing financial statements, revenue quality, customer concentration, contracts, and related-party transactions.
   - **Transaction Support:** Prepared financial schedules, supported DCF and comparable company valuations, managed virtual data rooms (VDR), and contributed to sector and market analysis.
 - **Key Achievements:**
   - **Risk Identification:** Identified £420k EBITDA adjustment in an FMCG deal by uncovering non-recurring items, misclassified expenses, and suspicious transactions, strengthening buyer’s negotiating position and securing a better purchase price.
