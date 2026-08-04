@@ -81,7 +81,6 @@ redirect_from:
 
 ## COMMUNITY SERVICE & EXTRA CURRICULAR ACTIVITIES
 ---
-
 ### Volunteer in various Food Action initiatives | United Kingdom | November 2024 – June 2025
 - **Community Impact:** Collected and distributed an average of 285 meal portions per month to shelters and vulnerable individuals, addressing food-poverty issues and providing essential nutrition to the low-income community.
 - **Logistics and Fair Distribution:** Managed food inventory, maintained accurate records, and prioritized distribution based on community needs, ensuring fair and needs-based meal distribution to shelters.
