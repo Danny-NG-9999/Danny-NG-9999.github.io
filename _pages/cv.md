@@ -44,10 +44,10 @@ redirect_from:
 ### Technology Consultant | KPMG, Vietnam | April 2021 – June 2022
 - **Key Responsibilities:**
   - **IT Audit & Data Assurance:** Performed IT control testing, SQL-based data integrity analysis, and financial reconciliations to support statutory audits and the reliability of system-generated financial data.
-  - **Governance & Compliance:** Assessed IT control environments and supported delivery of a £3.4m data governance programme, ensuring compliance with SOX, ISO 27001, and GDPR requirements. 
+  - **Governance & Compliance:** Assessed IT control environments and supported delivery of a £3.2m data governance programme, ensuring compliance with SOX, ISO 27001, and GDPR requirements. 
 - **Key Achievements:**
   - **Audit Quality:** Delivered reliable audit evidence and strengthened confidence in system-generated financial reporting, improving audit efficiency across multiple engagements.
-  - **Project Delivery:** Contributed to the successful delivery of a £3.4m transformation programme, developing standardised documentation and coordinating stakeholders to improve project governance and knowledge sharing.
+  - **Project Delivery:** Contributed to the successful delivery of a £3.2m transformation programme, developing standardised documentation and coordinating stakeholders to improve project governance and knowledge sharing.
 
 ## ANALYTICS & RESEARCH PROJECTS
 ---
