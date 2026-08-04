@@ -78,7 +78,6 @@ redirect_from:
   - **Research Findings:** Identified a significant causal relationship between passenger traffic and regional productivity (β = +0.0183, p < 0.01), while freight throughput responded to productivity growth rather than acting as its driver (Z = 3.382, p < 0.01).
   - **Policy Impact:** Produced evidence-based recommendations on airport connectivity, flight frequency, and operational efficiency to support regional productivity, infrastructure investment, and strategic transport planning.
 
-
 ## COMMUNITY SERVICE & EXTRA CURRICULAR ACTIVITIES
 ---
 ### Volunteer in various Food Action initiatives | United Kingdom | November 2024 – June 2025
